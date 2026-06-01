@@ -46,7 +46,7 @@ export default function HomePage() {
             <p className="text-lg mb-4 text-white/80 leading-relaxed">
               Pandit Home Wall Paint is a one stop destination offering you end to end solution to design and create spaces you can cherish.
             </p>
-            <p className="text-lg mb-8 text-white/80 leading-relaxed">
+            <p className="text-lg mb-8 text-white/80 leading-relaxed mob-hide">
               A startup assuring you hassle free deals with best quality material and Skillful Craftsman to make your home into heaven.
             </p>
             <div className="flex flex-wrap gap-4">
