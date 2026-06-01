@@ -14,7 +14,7 @@ import PhotoGalleryPage from './pages/PhotoGalleryPage';
 import VideoGalleryPage from './pages/VideoGalleryPage';
 import ContactPage from './pages/ContactPage';
 
-import { motion } from "framer-motion";
+
 
 
 export default function App() {
