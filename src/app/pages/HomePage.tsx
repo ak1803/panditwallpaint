@@ -104,7 +104,7 @@ export default function HomePage() {
       </section>
 
       {/* Services Section */}
-      {/* <section id="services" className="py-24 bg-secondary">
+      <section id="services" className="py-24 bg-secondary">
         <div className="max-w-7xl mx-auto px-6">
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold text-primary mb-4">Our Services</h2>
@@ -259,7 +259,7 @@ export default function HomePage() {
             </div>
           </div>
         </div>
-      </section> */}
+      </section>
 
       {/* About Section */}
       {/* <section id="about" className="py-24 bg-background">
@@ -567,59 +567,7 @@ export default function HomePage() {
         </div>
       </section> */}
 
-      {/* Footer */}
-      {/* <footer className="bg-primary text-white py-12">
-        <div className="max-w-7xl mx-auto px-6">
-          <div className="grid md:grid-cols-4 gap-8 mb-8">
-            <div className="md:col-span-2">
-              <div className="flex items-center gap-2 mb-4">
-                <Paintbrush className="w-8 h-8 text-accent" />
-                <span className="font-bold text-2xl">Guru Painting Services</span>
-              </div>
-              <p className="text-white/70 mb-4 leading-relaxed">
-                Guru Painting Services is a one stop destination offering you end to end solution to design and create spaces you can cherish. A startup assuring you hassle free deals with best quality material and Skillful Craftsman to make your home into heaven.
-              </p>
-              <div className="flex items-center gap-4">
-                <a href="#" className="w-10 h-10 bg-white/10 rounded-full flex items-center justify-center hover:bg-accent transition-colors">
-                  <Facebook className="w-5 h-5" />
-                </a>
-                <a href="#" className="w-10 h-10 bg-white/10 rounded-full flex items-center justify-center hover:bg-accent transition-colors">
-                  <Twitter className="w-5 h-5" />
-                </a>
-                <a href="#" className="w-10 h-10 bg-white/10 rounded-full flex items-center justify-center hover:bg-accent transition-colors">
-                  <Youtube className="w-5 h-5" />
-                </a>
-              </div>
-            </div>
-
-            <div>
-              <h3 className="font-bold text-lg mb-4">Quick Links</h3>
-              <ul className="space-y-2">
-                <li><button onClick={() => scrollToSection('home')} className="text-white/70 hover:text-accent transition-colors">Home</button></li>
-                <li><button onClick={() => scrollToSection('about')} className="text-white/70 hover:text-accent transition-colors">About Us</button></li>
-                <li><button onClick={() => scrollToSection('services')} className="text-white/70 hover:text-accent transition-colors">Services</button></li>
-                <li><button onClick={() => scrollToSection('gallery')} className="text-white/70 hover:text-accent transition-colors">Gallery</button></li>
-                <li><button onClick={() => scrollToSection('contact')} className="text-white/70 hover:text-accent transition-colors">Contact Us</button></li>
-              </ul>
-            </div>
-
-            <div>
-              <h3 className="font-bold text-lg mb-4">Our Services</h3>
-              <ul className="space-y-2">
-                <li><span className="text-white/70">Interior Painting</span></li>
-                <li><span className="text-white/70">Exterior Painting</span></li>
-                <li><span className="text-white/70">Wall Painting</span></li>
-                <li><span className="text-white/70">Waterproof Painting</span></li>
-                <li><span className="text-white/70">Terrace Waterproofing</span></li>
-              </ul>
-            </div>
-          </div>
-
-          <div className="border-t border-white/10 pt-8 text-center text-sm text-white/60">
-            <p>© 2020 GPS | Design By: BigHost India Private Limited</p>
-          </div>
-        </div>
-      </footer> */}
+   
       
       {/* About Section */}
       {/* <section id="about" className="py-24 bg-secondary">
