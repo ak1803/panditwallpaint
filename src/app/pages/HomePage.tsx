@@ -3,6 +3,25 @@ import { Calendar, Eye, Palette, Award, Users, Shield, CheckCircle } from 'lucid
 export default function HomePage() {
   const scrollToSection = (id: string) => {
     document.getElementById(id)?.scrollIntoView({ behavior: 'smooth' });
+
+
+
+    const [formData, setFormData] = useState({ name: '', email: '', phone: '', message: '' });
+  const [servicesOpen, setServicesOpen] = useState(false);
+  const [galleryOpen, setGalleryOpen] = useState(false);
+
+  const handleSubmit = (e: React.FormEvent) => {
+    e.preventDefault();
+    console.log('Form submitted:', formData);
+    alert('Thank you for your interest! We will contact you soon.');
+    setFormData({ name: '', email: '', phone: '', message: '' });
+  };
+
+  const scrollToSection = (id: string) => {
+    document.getElementById(id)?.scrollIntoView({ behavior: 'smooth' });
+    setServicesOpen(false);
+    setGalleryOpen(false);
+  };
   };
 
   return (
@@ -454,7 +473,7 @@ export default function HomePage() {
           <div className="grid md:grid-cols-2 gap-12">
             <div className="bg-card p-8 md:p-12 rounded-2xl shadow-xl">
               <h3 className="text-2xl font-bold text-primary mb-6">Send Us a Message</h3>
-              <form  className="space-y-6">
+              <form onSubmit={handleSubmit} className="space-y-6">
                 <div className="grid md:grid-cols-2 gap-6">
                   <div>
                     <label className="block text-sm font-semibold text-foreground mb-2">Your Name</label>
@@ -595,3 +614,7 @@ export default function HomePage() {
     </>
   );
 }
+function useState(arg0: { name: string; email: string; phone: string; message: string; }): [any, any] {
+  throw new Error('Function not implemented.');
+}
+
