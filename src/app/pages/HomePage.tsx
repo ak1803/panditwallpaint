@@ -469,9 +469,9 @@ export default function HomePage() {
           </div>
 
           <div className="grid md:grid-cols-2 gap-12">
-            <div className="bg-card p-8 md:p-12 rounded-2xl shadow-xl">
+            {/* <div className="bg-card p-8 md:p-12 rounded-2xl shadow-xl">
               <h3 className="text-2xl font-bold text-primary mb-6">Send Us a Message</h3>
-              <form  className="space-y-6">
+              <form onSubmit={handleSubmit} className="space-y-6">
                 <div className="grid md:grid-cols-2 gap-6">
                   <div>
                     <label className="block text-sm font-semibold text-foreground mb-2">Your Name</label>
@@ -528,7 +528,7 @@ export default function HomePage() {
                   Send Message
                 </button>
               </form>
-            </div>
+            </div> */}
 
             <div className="space-y-8">
               <div className="bg-card p-8 rounded-2xl shadow-lg">
