@@ -284,7 +284,7 @@ export default function HomePage() {
 
 
   {/* About Section */}
-      <section id="about" className="py-24 bg-secondary">
+      <section id="about" className="py-24 ">
         <div className="max-w-7xl mx-auto px-6">
           <div className="grid md:grid-cols-2 gap-16 items-center">
             <div>
