@@ -178,7 +178,169 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Contact Section */}
+
+
+        <section id="services" className="py-24 bg-secondary">
+        <div className="max-w-7xl mx-auto px-6">
+          <div className="text-center mb-16">
+            <h2 className="text-4xl md:text-5xl font-bold text-primary mb-4">Our Services</h2>
+            <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
+              Comprehensive painting solutions for every need
+            </p>
+          </div>
+
+          <div className="grid md:grid-cols-3 gap-8">
+            <div className="bg-card p-8 rounded-2xl shadow-lg hover:shadow-xl transition-shadow group">
+              <div className="w-14 h-14 bg-accent/10 rounded-xl flex items-center justify-center mb-6 group-hover:bg-accent/20 transition-colors">
+                <div className="w-7 h-7 text-accent" />
+              </div>
+              <h3 className="text-2xl font-bold text-primary mb-4">Interior Painting</h3>
+              <p className="text-muted-foreground leading-relaxed mb-4">
+                Transform your indoor spaces with our professional interior painting services using premium quality materials.
+              </p>
+              <ul className="space-y-2">
+                <li className="flex items-start gap-2 text-sm text-foreground">
+                  <CheckCircle className="w-5 h-5 text-accent shrink-0 mt-0.5" />
+                  <span>Walls, Ceilings & Trim</span>
+                </li>
+                <li className="flex items-start gap-2 text-sm text-foreground">
+                  <CheckCircle className="w-5 h-5 text-accent shrink-0 mt-0.5" />
+                  <span>Asian Paints Certified Craftsmen</span>
+                </li>
+                <li className="flex items-start gap-2 text-sm text-foreground">
+                  <CheckCircle className="w-5 h-5 text-accent shrink-0 mt-0.5" />
+                  <span>Color Consultation Included</span>
+                </li>
+              </ul>
+            </div>
+
+            <div className="bg-card p-8 rounded-2xl shadow-lg hover:shadow-xl transition-shadow group">
+              <div className="w-14 h-14 bg-accent/10 rounded-xl flex items-center justify-center mb-6 group-hover:bg-accent/20 transition-colors">
+                <div className="w-7 h-7 text-accent" />
+              </div>
+              <h3 className="text-2xl font-bold text-primary mb-4">Exterior Painting</h3>
+              <p className="text-muted-foreground leading-relaxed mb-4">
+                Protect and beautify your property with weather-resistant exterior painting solutions.
+              </p>
+              <ul className="space-y-2">
+                <li className="flex items-start gap-2 text-sm text-foreground">
+                  <CheckCircle className="w-5 h-5 text-accent shrink-0 mt-0.5" />
+                  <span>House & Building Facades</span>
+                </li>
+                <li className="flex items-start gap-2 text-sm text-foreground">
+                  <CheckCircle className="w-5 h-5 text-accent shrink-0 mt-0.5" />
+                  <span>Weather Protection Coatings</span>
+                </li>
+                <li className="flex items-start gap-2 text-sm text-foreground">
+                  <CheckCircle className="w-5 h-5 text-accent shrink-0 mt-0.5" />
+                  <span>Long-lasting Finishes</span>
+                </li>
+              </ul>
+            </div>
+
+            <div className="bg-card p-8 rounded-2xl shadow-lg hover:shadow-xl transition-shadow group">
+              <div className="w-14 h-14 bg-accent/10 rounded-xl flex items-center justify-center mb-6 group-hover:bg-accent/20 transition-colors">
+                <div className="w-7 h-7 text-accent" />
+              </div>
+              <h3 className="text-2xl font-bold text-primary mb-4">Waterproof Painting</h3>
+              <p className="text-muted-foreground leading-relaxed mb-4">
+                Advanced waterproofing solutions to protect your property from moisture damage.
+              </p>
+              <ul className="space-y-2">
+                <li className="flex items-start gap-2 text-sm text-foreground">
+                  <CheckCircle className="w-5 h-5 text-accent shrink-0 mt-0.5" />
+                  <span>Terrace Waterproofing</span>
+                </li>
+                <li className="flex items-start gap-2 text-sm text-foreground">
+                  <CheckCircle className="w-5 h-5 text-accent shrink-0 mt-0.5" />
+                  <span>Bathroom Waterproofing</span>
+                </li>
+                <li className="flex items-start gap-2 text-sm text-foreground">
+                  <CheckCircle className="w-5 h-5 text-accent shrink-0 mt-0.5" />
+                  <span>Leakage Prevention</span>
+                </li>
+              </ul>
+            </div>
+
+            <div className="bg-card p-8 rounded-2xl shadow-lg hover:shadow-xl transition-shadow group">
+              <div className="w-14 h-14 bg-accent/10 rounded-xl flex items-center justify-center mb-6 group-hover:bg-accent/20 transition-colors">
+                <div className="w-7 h-7 text-accent" />
+              </div>
+              <h3 className="text-2xl font-bold text-primary mb-4">Wall Painting</h3>
+              <p className="text-muted-foreground leading-relaxed mb-4">
+                Specialized wall painting services with texture and finish options to suit your style.
+              </p>
+              <ul className="space-y-2">
+                <li className="flex items-start gap-2 text-sm text-foreground">
+                  <CheckCircle className="w-5 h-5 text-accent shrink-0 mt-0.5" />
+                  <span>Textured Finishes</span>
+                </li>
+                <li className="flex items-start gap-2 text-sm text-foreground">
+                  <CheckCircle className="w-5 h-5 text-accent shrink-0 mt-0.5" />
+                  <span>Decorative Patterns</span>
+                </li>
+                <li className="flex items-start gap-2 text-sm text-foreground">
+                  <CheckCircle className="w-5 h-5 text-accent shrink-0 mt-0.5" />
+                  <span>Premium Quality Paints</span>
+                </li>
+              </ul>
+            </div>
+
+            <div className="bg-card p-8 rounded-2xl shadow-lg hover:shadow-xl transition-shadow group">
+              <div className="w-14 h-14 bg-accent/10 rounded-xl flex items-center justify-center mb-6 group-hover:bg-accent/20 transition-colors">
+                <div className="w-7 h-7 text-accent" />
+              </div>
+              <h3 className="text-2xl font-bold text-primary mb-4">House Painting</h3>
+              <p className="text-muted-foreground leading-relaxed mb-4">
+                Complete house painting services covering all interior and exterior surfaces.
+              </p>
+              <ul className="space-y-2">
+                <li className="flex items-start gap-2 text-sm text-foreground">
+                  <CheckCircle className="w-5 h-5 text-accent shrink-0 mt-0.5" />
+                  <span>Full Home Transformation</span>
+                </li>
+                <li className="flex items-start gap-2 text-sm text-foreground">
+                  <CheckCircle className="w-5 h-5 text-accent shrink-0 mt-0.5" />
+                  <span>Room-by-Room Services</span>
+                </li>
+                <li className="flex items-start gap-2 text-sm text-foreground">
+                  <CheckCircle className="w-5 h-5 text-accent shrink-0 mt-0.5" />
+                  <span>Hassle-free Project Management</span>
+                </li>
+              </ul>
+            </div>
+
+            <div className="bg-card p-8 rounded-2xl shadow-lg hover:shadow-xl transition-shadow group">
+              <div className="w-14 h-14 bg-accent/10 rounded-xl flex items-center justify-center mb-6 group-hover:bg-accent/20 transition-colors">
+                <div className="w-7 h-7 text-accent" />
+              </div>
+              <h3 className="text-2xl font-bold text-primary mb-4">Terrace Waterproofing</h3>
+              <p className="text-muted-foreground leading-relaxed mb-4">
+                Expert terrace waterproofing to prevent leaks and extend the life of your property.
+              </p>
+              <ul className="space-y-2">
+                <li className="flex items-start gap-2 text-sm text-foreground">
+                  <CheckCircle className="w-5 h-5 text-accent shrink-0 mt-0.5" />
+                  <span>Advanced Waterproofing Materials</span>
+                </li>
+                <li className="flex items-start gap-2 text-sm text-foreground">
+                  <CheckCircle className="w-5 h-5 text-accent shrink-0 mt-0.5" />
+                  <span>Crack Repair & Sealing</span>
+                </li>
+                <li className="flex items-start gap-2 text-sm text-foreground">
+                  <CheckCircle className="w-5 h-5 text-accent shrink-0 mt-0.5" />
+                  <span>Long-term Protection</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+      
+
+      {/* get in touch Section */}
       <section id="contact" className="py-24 bg-background">
         <div className="max-w-4xl mx-auto px-6 text-center">
           <h2 className="text-4xl md:text-5xl font-bold text-primary mb-6">Get In Touch</h2>
