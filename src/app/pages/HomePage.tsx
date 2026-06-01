@@ -5,7 +5,6 @@ import { Link } from 'react-router';
 
 
 export default function HomePage() {
-  
   const [formData, setFormData] = useState({ name: '', email: '', phone: '', message: '' });
   const [servicesOpen, setServicesOpen] = useState(false);
   const [galleryOpen, setGalleryOpen] = useState(false);
@@ -18,13 +17,8 @@ export default function HomePage() {
     setServicesOpen(false);
     setGalleryOpen(false);
   };
-
-  
   };
 
-
-
-    
 
  const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
@@ -642,7 +636,5 @@ export default function HomePage() {
     </>
   );
 }
-function useState(arg0: { name: string; email: string; phone: string; message: string; }): [any, any] {
-  throw new Error('Function not implemented.');
-}
+
 
