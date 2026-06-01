@@ -187,8 +187,9 @@ export default function Layout({ children }: { children: React.ReactNode }) {
           <div className="grid md:grid-cols-4 gap-8 mb-8">
             <div className="md:col-span-2">
               <div className="flex items-center gap-2 mb-4">
-                <Paintbrush className="w-8 h-8 text-accent" />
-                <span className="font-bold text-2xl">Pandit Painting Services</span>
+                {/* <Paintbrush className="w-8 h-8 text-accent" />
+                <span className="font-bold text-2xl">Pandit Painting Services</span> */}
+                 <img src={myLocalImage} alt=""/>
               </div>
               <p className="text-white/70 mb-4 leading-relaxed">
                 Pandit Painting Services is a one stop destination offering you end to end solution to design and create spaces you can cherish. A startup assuring you hassle free deals with best quality material and Skillful Craftsman to make your home into heaven.
