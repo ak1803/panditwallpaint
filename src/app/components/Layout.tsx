@@ -232,7 +232,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
           </div>
 
           <div className="border-t border-white/10 pt-8 text-center text-sm text-white/60">
-            <p>© 2020 GPS | Design By: Creative Tech Pvt. Ltd</p>
+            <p>© 2026 GPS | Design By: Creative Tech Pvt. Ltd</p>
           </div>
         </div>
       </footer>
