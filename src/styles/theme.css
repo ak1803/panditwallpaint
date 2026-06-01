@@ -207,6 +207,8 @@
   .grid.md\:grid-cols-3.gap-8.border-box .box:nth-child(2) {
     border-top: 1px solid #e9e9e9;
     border-bottom: 1px solid #e9e9e9;
+    border-left:none;
+    border-right:none;
 }
 }
 
