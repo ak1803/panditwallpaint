@@ -8,7 +8,7 @@ export default function HomePage() {
   const [servicesOpen, setServicesOpen] = useState(false);
   const [galleryOpen, setGalleryOpen] = useState(false);
 
-  const handleSubmit = (e: React.FormEvent) => {
+ const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     console.log('Form submitted:', formData);
     alert('Thank you for your interest! We will contact you soon.');
@@ -471,6 +471,62 @@ export default function HomePage() {
           <div className="grid md:grid-cols-2 gap-12">
             {/* <div className="bg-card p-8 md:p-12 rounded-2xl shadow-xl">
               <h3 className="text-2xl font-bold text-primary mb-6">Send Us a Message</h3>
+              <form  className="space-y-6">
+                <div className="grid md:grid-cols-2 gap-6">
+                  <div>
+                    <label className="block text-sm font-semibold text-foreground mb-2">Your Name</label>
+                    <input
+                      type="text"
+                      required
+                     
+                      className="w-full px-4 py-3 bg-input-background border border-border rounded-lg focus:outline-none focus:ring-2 focus:ring-ring"
+                      placeholder="Enter your name"
+                    />
+                  </div>
+                  <div>
+                    <label className="block text-sm font-semibold text-foreground mb-2">Email Address</label>
+                    <input
+                      type="email"
+                      required
+                     
+                      className="w-full px-4 py-3 bg-input-background border border-border rounded-lg focus:outline-none focus:ring-2 focus:ring-ring"
+                      placeholder="Enter your email"
+                    />
+                  </div>
+                </div>
+
+                <div>
+                  <label className="block text-sm font-semibold text-foreground mb-2">Phone Number</label>
+                  <input
+                    type="tel"
+                    required
+                    
+                    className="w-full px-4 py-3 bg-input-background border border-border rounded-lg focus:outline-none focus:ring-2 focus:ring-ring"
+                    placeholder="Enter your phone number"
+                  />
+                </div>
+
+                <div>
+                  <label className="block text-sm font-semibold text-foreground mb-2">Project Details</label>
+                  <textarea
+                    required
+                    rows={5}
+                    className="w-full px-4 py-3 bg-input-background border border-border rounded-lg focus:outline-none focus:ring-2 focus:ring-ring resize-none"
+                    placeholder="Tell us about your painting project..."
+                  />
+                </div>
+
+                <button
+                  type="submit"
+                  className="w-full bg-accent text-accent-foreground py-4 rounded-lg font-semibold hover:opacity-90 transition-opacity shadow-lg text-lg"
+                >
+                  Send Message
+                </button>
+              </form>
+            </div> */}
+
+               <div className="bg-card p-8 md:p-12 rounded-2xl shadow-xl">
+              <h3 className="text-2xl font-bold text-primary mb-6">Send Us a Message</h3>
               <form onSubmit={handleSubmit} className="space-y-6">
                 <div className="grid md:grid-cols-2 gap-6">
                   <div>
@@ -528,7 +584,7 @@ export default function HomePage() {
                   Send Message
                 </button>
               </form>
-            </div> */}
+            </div>
 
             <div className="space-y-8">
               <div className="bg-card p-8 rounded-2xl shadow-lg">
