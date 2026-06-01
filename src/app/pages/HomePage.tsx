@@ -30,7 +30,12 @@ export default function HomePage() {
   return (
     <>
       {/* Hero Section */}
-      <section id="home" className="relative min-h-screen flex items-center overflow-hidden">
+      <section id="home" className="relative min-h-screen flex items-center overflow-hidden" 
+      initial={{ opacity: 0, y: 100 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      viewport={{ once: true }}
+      transition={{ duration: 0.8 }}
+      >
         <div className="absolute inset-0 bg-gradient-to-br from-primary via-primary to-primary/90" />
         <div className="absolute top-0 right-0 w-1/2 h-full bg-accent" style={{ clipPath: 'polygon(30% 0, 100% 0, 100% 100%, 0% 100%)' }} />
 
