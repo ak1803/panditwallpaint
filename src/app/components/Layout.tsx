@@ -57,8 +57,9 @@ export default function Layout({ children }: { children: React.ReactNode }) {
         <div className="max-w-7xl mx-auto px-4 md:px-6 py-3 md:py-4">
           <div className="flex items-center justify-between">
             <Link to="/" className="flex items-center gap-2">
-              <Paintbrush className="w-6 h-6 md:w-7 md:h-7 text-accent" />
-              <span className="font-bold text-lg md:text-xl text-primary">Pandit Painting Services</span>
+              {/* <Paintbrush className="w-6 h-6 md:w-7 md:h-7 text-accent" />
+              <span className="font-bold text-lg md:text-xl text-primary">Pandit Painting Services</span> */}
+              <img src="/assets/brand-logo.png" alt="" />
             </Link>
 
             {/* Mobile Menu Toggle */}
