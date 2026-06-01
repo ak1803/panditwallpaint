@@ -103,83 +103,10 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* About Section */}
-      <section id="about" className="py-24 bg-secondary">
-        <div className="max-w-7xl mx-auto px-6">
-          <div className="grid md:grid-cols-2 gap-16 items-center">
-            <div>
-              <h2 className="text-4xl md:text-5xl font-bold text-primary mb-6">About Us</h2>
-              <p className="text-lg text-foreground leading-relaxed mb-8">
-                Guru Painting Services is a one stop destination offering you end to end solution to design and create spaces you can cherish. A startup assuring you hassle free deals with best quality material and Skillful Craftsman to make your home into heaven.
-              </p>
-              <p className="text-lg text-foreground leading-relaxed mb-8">
-                Our painters are certified from Asian Paint academy - top rated, local house painters with 100% accountability. We are committed to delivering excellence in every project.
-              </p>
-
-              <div className="bg-primary text-white p-8 rounded-2xl mb-8">
-                <h3 className="text-2xl font-bold mb-4">Why Do We Do It?</h3>
-                <p className="leading-relaxed text-white/90">
-                  Our mission is to simplify the process of finding trusted painting contractors. We eliminate the hassle of endless searches, negotiations, and compromises that come with traditional painting services.
-                </p>
-              </div>
-
-              <div className="bg-card p-8 rounded-2xl">
-                <h3 className="text-2xl font-bold text-primary mb-4">Who We Are?</h3>
-                <p className="text-foreground leading-relaxed">
-                  We are a team of engineers and problem solvers dedicated to transforming the home painting industry. Our vision is to streamline processes and empower skilled painters with technology and support.
-                </p>
-              </div>
-            </div>
-
-            <div className="space-y-6">
-              <div className="relative">
-                <img
-                  src="https://images.unsplash.com/photo-1649083048337-4aeb6dda80bb?w=800&h=600&fit=crop&auto=format"
-                  alt="Modern living room interior transformation"
-                  className="rounded-2xl shadow-2xl w-full h-[400px] object-cover"
-                />
-              </div>
-
-              <div className="grid grid-cols-2 gap-6">
-                <div className="bg-card p-6 rounded-xl shadow-lg text-center">
-                  <div className="w-12 h-12 bg-accent/10 rounded-lg flex items-center justify-center mx-auto mb-4">
-                    <Award className="w-6 h-6 text-accent" />
-                  </div>
-                  <h4 className="font-bold text-primary mb-2">Best Quality Material</h4>
-                  <p className="text-sm text-muted-foreground">Premium paints and supplies</p>
-                </div>
-
-                <div className="bg-card p-6 rounded-xl shadow-lg text-center">
-                  <div className="w-12 h-12 bg-accent/10 rounded-lg flex items-center justify-center mx-auto mb-4">
-                    <Users className="w-6 h-6 text-accent" />
-                  </div>
-                  <h4 className="font-bold text-primary mb-2">Certified Craftsmen</h4>
-                  <p className="text-sm text-muted-foreground">Asian Paints trained professionals</p>
-                </div>
-
-                <div className="bg-card p-6 rounded-xl shadow-lg text-center">
-                  <div className="w-12 h-12 bg-accent/10 rounded-lg flex items-center justify-center mx-auto mb-4">
-                    <Shield className="w-6 h-6 text-accent" />
-                  </div>
-                  <h4 className="font-bold text-primary mb-2">100% Accountability</h4>
-                  <p className="text-sm text-muted-foreground">Trusted local painters</p>
-                </div>
-
-                <div className="bg-card p-6 rounded-xl shadow-lg text-center">
-                  <div className="w-12 h-12 bg-accent/10 rounded-lg flex items-center justify-center mx-auto mb-4">
-                    <CheckCircle className="w-6 h-6 text-accent" />
-                  </div>
-                  <h4 className="font-bold text-primary mb-2">Customer Satisfaction</h4>
-                  <p className="text-sm text-muted-foreground">All projects achieve milestones</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+    
 
 
-
+{/* services section */}
         <section id="services" className="py-24 bg-secondary">
         <div className="max-w-7xl mx-auto px-6">
           <div className="text-center mb-16">
@@ -338,7 +265,315 @@ export default function HomePage() {
       </section>
 
 
-      
+
+  {/* About Section */}
+      <section id="about" className="py-24 bg-secondary">
+        <div className="max-w-7xl mx-auto px-6">
+          <div className="grid md:grid-cols-2 gap-16 items-center">
+            <div>
+              <h2 className="text-4xl md:text-5xl font-bold text-primary mb-6">About Us</h2>
+              <p className="text-lg text-foreground leading-relaxed mb-8">
+                Guru Painting Services is a one stop destination offering you end to end solution to design and create spaces you can cherish. A startup assuring you hassle free deals with best quality material and Skillful Craftsman to make your home into heaven.
+              </p>
+              <p className="text-lg text-foreground leading-relaxed mb-8">
+                Our painters are certified from Asian Paint academy - top rated, local house painters with 100% accountability. We are committed to delivering excellence in every project.
+              </p>
+
+              <div className="bg-primary text-white p-8 rounded-2xl mb-8">
+                <h3 className="text-2xl font-bold mb-4">Why Do We Do It?</h3>
+                <p className="leading-relaxed text-white/90">
+                  Our mission is to simplify the process of finding trusted painting contractors. We eliminate the hassle of endless searches, negotiations, and compromises that come with traditional painting services.
+                </p>
+              </div>
+
+              <div className="bg-card p-8 rounded-2xl">
+                <h3 className="text-2xl font-bold text-primary mb-4">Who We Are?</h3>
+                <p className="text-foreground leading-relaxed">
+                  We are a team of engineers and problem solvers dedicated to transforming the home painting industry. Our vision is to streamline processes and empower skilled painters with technology and support.
+                </p>
+              </div>
+            </div>
+
+            <div className="space-y-6">
+              <div className="relative">
+                <img
+                  src="https://images.unsplash.com/photo-1649083048337-4aeb6dda80bb?w=800&h=600&fit=crop&auto=format"
+                  alt="Modern living room interior transformation"
+                  className="rounded-2xl shadow-2xl w-full h-[400px] object-cover"
+                />
+              </div>
+
+              <div className="grid grid-cols-2 gap-6">
+                <div className="bg-card p-6 rounded-xl shadow-lg text-center">
+                  <div className="w-12 h-12 bg-accent/10 rounded-lg flex items-center justify-center mx-auto mb-4">
+                    <Award className="w-6 h-6 text-accent" />
+                  </div>
+                  <h4 className="font-bold text-primary mb-2">Best Quality Material</h4>
+                  <p className="text-sm text-muted-foreground">Premium paints and supplies</p>
+                </div>
+
+                <div className="bg-card p-6 rounded-xl shadow-lg text-center">
+                  <div className="w-12 h-12 bg-accent/10 rounded-lg flex items-center justify-center mx-auto mb-4">
+                    <Users className="w-6 h-6 text-accent" />
+                  </div>
+                  <h4 className="font-bold text-primary mb-2">Certified Craftsmen</h4>
+                  <p className="text-sm text-muted-foreground">Asian Paints trained professionals</p>
+                </div>
+
+                <div className="bg-card p-6 rounded-xl shadow-lg text-center">
+                  <div className="w-12 h-12 bg-accent/10 rounded-lg flex items-center justify-center mx-auto mb-4">
+                    <Shield className="w-6 h-6 text-accent" />
+                  </div>
+                  <h4 className="font-bold text-primary mb-2">100% Accountability</h4>
+                  <p className="text-sm text-muted-foreground">Trusted local painters</p>
+                </div>
+
+                <div className="bg-card p-6 rounded-xl shadow-lg text-center">
+                  <div className="w-12 h-12 bg-accent/10 rounded-lg flex items-center justify-center mx-auto mb-4">
+                    <CheckCircle className="w-6 h-6 text-accent" />
+                  </div>
+                  <h4 className="font-bold text-primary mb-2">Customer Satisfaction</h4>
+                  <p className="text-sm text-muted-foreground">All projects achieve milestones</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+
+ {/* Gallery Section */}
+      <section id="gallery" className="py-24 bg-primary text-white">
+        <div className="max-w-7xl mx-auto px-6">
+          <div className="text-center mb-16">
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">Gallery</h2>
+            <p className="text-xl text-white/80 max-w-2xl mx-auto">
+              All projects of Guru Painting Services have achieved milestones
+            </p>
+          </div>
+
+          <div className="grid md:grid-cols-3 gap-6">
+            <div className="group relative overflow-hidden rounded-2xl h-80">
+              <img
+                src="https://images.unsplash.com/photo-1618832515490-e181c4794a45?w=600&h=600&fit=crop&auto=format"
+                alt="Modern residential interior painting project"
+                className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-primary/90 to-transparent flex items-end p-6">
+                <div>
+                  <h3 className="font-bold text-xl mb-1">Modern Residential</h3>
+                  <p className="text-white/80 text-sm">Complete interior transformation</p>
+                </div>
+              </div>
+            </div>
+
+            <div className="group relative overflow-hidden rounded-2xl h-80">
+              <img
+                src="https://images.unsplash.com/photo-1613545325278-f24b0cae1224?w=600&h=600&fit=crop&auto=format"
+                alt="Luxury living room painting project"
+                className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-primary/90 to-transparent flex items-end p-6">
+                <div>
+                  <h3 className="font-bold text-xl mb-1">Luxury Living Space</h3>
+                  <p className="text-white/80 text-sm">Premium finishes & textures</p>
+                </div>
+              </div>
+            </div>
+
+            <div className="group relative overflow-hidden rounded-2xl h-80">
+              <img
+                src="https://images.unsplash.com/photo-1584622781564-1d987f7333c1?w=600&h=600&fit=crop&auto=format"
+                alt="Contemporary home interior design"
+                className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-primary/90 to-transparent flex items-end p-6">
+                <div>
+                  <h3 className="font-bold text-xl mb-1">Contemporary Home</h3>
+                  <p className="text-white/80 text-sm">Custom color consultation</p>
+                </div>
+              </div>
+            </div>
+
+            <div className="group relative overflow-hidden rounded-2xl h-80">
+              <img
+                src="https://images.unsplash.com/photo-1649083048770-82e8ffd80431?w=600&h=600&fit=crop&auto=format"
+                alt="Elegant living space design"
+                className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-primary/90 to-transparent flex items-end p-6">
+                <div>
+                  <h3 className="font-bold text-xl mb-1">Elegant Living Space</h3>
+                  <p className="text-white/80 text-sm">Professional wall painting</p>
+                </div>
+              </div>
+            </div>
+
+            <div className="group relative overflow-hidden rounded-2xl h-80">
+              <img
+                src="https://images.unsplash.com/photo-1599619585752-c3edb42a414c?w=600&h=600&fit=crop&auto=format"
+                alt="Quality painting materials and tools"
+                className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-primary/90 to-transparent flex items-end p-6">
+                <div>
+                  <h3 className="font-bold text-xl mb-1">Best Quality Materials</h3>
+                  <p className="text-white/80 text-sm">Premium paints & supplies</p>
+                </div>
+              </div>
+            </div>
+
+            <div className="group relative overflow-hidden rounded-2xl h-80">
+              <img
+                src="https://images.unsplash.com/photo-1649083048337-4aeb6dda80bb?w=600&h=600&fit=crop&auto=format"
+                alt="Complete home transformation project"
+                className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-primary/90 to-transparent flex items-end p-6">
+                <div>
+                  <h3 className="font-bold text-xl mb-1">Complete Home Makeover</h3>
+                  <p className="text-white/80 text-sm">Exterior & interior painting</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Contact Section */}
+      <section id="contact" className="py-24 bg-secondary">
+        <div className="max-w-7xl mx-auto px-6">
+          <div className="text-center mb-12">
+            <h2 className="text-4xl md:text-5xl font-bold text-primary mb-4">Contact Us</h2>
+            <p className="text-xl text-muted-foreground">
+              Ready to start your project! Get in touch with us today.
+            </p>
+          </div>
+
+          <div className="grid md:grid-cols-2 gap-12">
+            <div className="bg-card p-8 md:p-12 rounded-2xl shadow-xl">
+              <h3 className="text-2xl font-bold text-primary mb-6">Send Us a Message</h3>
+              <form onSubmit={handleSubmit} className="space-y-6">
+                <div className="grid md:grid-cols-2 gap-6">
+                  <div>
+                    <label className="block text-sm font-semibold text-foreground mb-2">Your Name</label>
+                    <input
+                      type="text"
+                      required
+                      value={formData.name}
+                      onChange={(e) => setFormData({ ...formData, name: e.target.value })}
+                      className="w-full px-4 py-3 bg-input-background border border-border rounded-lg focus:outline-none focus:ring-2 focus:ring-ring"
+                      placeholder="Enter your name"
+                    />
+                  </div>
+                  <div>
+                    <label className="block text-sm font-semibold text-foreground mb-2">Email Address</label>
+                    <input
+                      type="email"
+                      required
+                      value={formData.email}
+                      onChange={(e) => setFormData({ ...formData, email: e.target.value })}
+                      className="w-full px-4 py-3 bg-input-background border border-border rounded-lg focus:outline-none focus:ring-2 focus:ring-ring"
+                      placeholder="Enter your email"
+                    />
+                  </div>
+                </div>
+
+                <div>
+                  <label className="block text-sm font-semibold text-foreground mb-2">Phone Number</label>
+                  <input
+                    type="tel"
+                    required
+                    value={formData.phone}
+                    onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
+                    className="w-full px-4 py-3 bg-input-background border border-border rounded-lg focus:outline-none focus:ring-2 focus:ring-ring"
+                    placeholder="Enter your phone number"
+                  />
+                </div>
+
+                <div>
+                  <label className="block text-sm font-semibold text-foreground mb-2">Project Details</label>
+                  <textarea
+                    required
+                    value={formData.message}
+                    onChange={(e) => setFormData({ ...formData, message: e.target.value })}
+                    rows={5}
+                    className="w-full px-4 py-3 bg-input-background border border-border rounded-lg focus:outline-none focus:ring-2 focus:ring-ring resize-none"
+                    placeholder="Tell us about your painting project..."
+                  />
+                </div>
+
+                <button
+                  type="submit"
+                  className="w-full bg-accent text-accent-foreground py-4 rounded-lg font-semibold hover:opacity-90 transition-opacity shadow-lg text-lg"
+                >
+                  Send Message
+                </button>
+              </form>
+            </div>
+
+            <div className="space-y-8">
+              <div className="bg-card p-8 rounded-2xl shadow-lg">
+                <h3 className="text-2xl font-bold text-primary mb-6">Contact Information</h3>
+                <div className="space-y-6">
+                  <div className="flex items-start gap-4">
+                    <div className="w-12 h-12 bg-accent/10 rounded-lg flex items-center justify-center shrink-0">
+                      <Phone className="w-6 h-6 text-accent" />
+                    </div>
+                    <div>
+                      <h4 className="font-bold text-primary mb-1">Phone</h4>
+                      <a href="tel:+918668415858" className="text-muted-foreground hover:text-accent transition-colors">
+                        +91 8668415858
+                      </a>
+                    </div>
+                  </div>
+
+                  <div className="flex items-start gap-4">
+                    <div className="w-12 h-12 bg-accent/10 rounded-lg flex items-center justify-center shrink-0">
+                      <Mail className="w-6 h-6 text-accent" />
+                    </div>
+                    <div>
+                      <h4 className="font-bold text-primary mb-1">Email</h4>
+                      <a href="mailto:contact@gurupaintingservices.in" className="text-muted-foreground hover:text-accent transition-colors break-all">
+                        contact@gurupaintingservices.in
+                      </a>
+                    </div>
+                  </div>
+
+                  <div className="flex items-start gap-4">
+                    <div className="w-12 h-12 bg-accent/10 rounded-lg flex items-center justify-center shrink-0">
+                      <MapPin className="w-6 h-6 text-accent" />
+                    </div>
+                    <div>
+                      <h4 className="font-bold text-primary mb-1">Address</h4>
+                      <p className="text-muted-foreground">
+                        Chinchwad Gaon, Chichwad,<br />
+                        Pimpri-Chinchwad, Maharashtra,<br />
+                        411033
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div className="bg-primary text-white p-8 rounded-2xl">
+                <h3 className="text-2xl font-bold mb-4">Schedule Free Consultation</h3>
+                <p className="text-white/90 mb-6 leading-relaxed">
+                  Call us today to schedule a free onsite consultation. Our experts will visit your property and provide personalized design & color assistance.
+                </p>
+                <a
+                  href="tel:+918668415858"
+                  className="inline-block bg-accent text-white px-8 py-4 rounded-lg font-semibold hover:opacity-90 transition-opacity"
+                >
+                  Call Now: +91 8668415858
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
 
       {/* get in touch Section */}
       <section id="contact" className="py-24 bg-background">
