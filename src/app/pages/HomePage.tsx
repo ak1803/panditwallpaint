@@ -87,9 +87,9 @@ export default function HomePage() {
               <div className="w-20 h-20 bg-accent rounded-full flex items-center justify-center mx-auto mb-6">
                 <Calendar className="w-10 h-10 text-white" />
               </div>
-              <div className="bg-accent/5 rounded-full w-12 h-12 flex items-center justify-center mx-auto -mt-12 mb-6 border-4 border-background">
+              {/* <div className="bg-accent/5 rounded-full w-12 h-12 mt-10 flex items-center justify-center mx-auto -mt-12 mb-6 border-4 border-background">
                 <span className="font-bold text-lg text-accent">1</span>
-              </div>
+              </div> */}
               <h3 className="text-2xl font-bold text-primary mb-4">Plan</h3>
               <p className="text-muted-foreground leading-relaxed">
                 Schedule a free onsite consultation by giving us a call
@@ -100,9 +100,9 @@ export default function HomePage() {
               <div className="w-20 h-20 bg-accent rounded-full flex items-center justify-center mx-auto mb-6">
                 <Eye className="w-10 h-10 text-white" />
               </div>
-              <div className="bg-accent/5 rounded-full w-12 h-12 flex items-center justify-center mx-auto -mt-12 mb-6 border-4 border-background">
+              {/* <div className="bg-accent/5 rounded-full w-12 h-12 flex items-center justify-center mx-auto -mt-12 mb-6 border-4 border-background">
                 <span className="font-bold text-lg text-accent">2</span>
-              </div>
+              </div> */}
               <h3 className="text-2xl font-bold text-primary mb-4">Preview</h3>
               <p className="text-muted-foreground leading-relaxed">
                 Get personalized design & color assistance to your living space
@@ -113,9 +113,9 @@ export default function HomePage() {
               <div className="w-20 h-20 bg-accent rounded-full flex items-center justify-center mx-auto mb-6">
                 <Palette className="w-10 h-10 text-white" />
               </div>
-              <div className="bg-accent/5 rounded-full w-12 h-12 flex items-center justify-center mx-auto -mt-12 mb-6 border-4 border-background">
+              {/* <div className="bg-accent/5 rounded-full w-12 h-12 flex items-center justify-center mx-auto -mt-12 mb-6 border-4 border-background">
                 <span className="font-bold text-lg text-accent">3</span>
-              </div>
+              </div> */}
               <h3 className="text-2xl font-bold text-primary mb-4">Paint</h3>
               <p className="text-muted-foreground leading-relaxed">
                 Watch our expert painters beautifully transform your space
