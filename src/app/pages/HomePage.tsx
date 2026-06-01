@@ -536,7 +536,7 @@ export default function HomePage() {
                 <div className="space-y-6">
                   <div className="flex items-start gap-4">
                     <div className="w-12 h-12 bg-accent/10 rounded-lg flex items-center justify-center shrink-0">
-                      <Phone className="w-6 h-6 text-accent" />
+                      <div className="w-6 h-6 text-accent" />
                     </div>
                     <div>
                       <h4 className="font-bold text-primary mb-1">Phone</h4>
@@ -548,7 +548,7 @@ export default function HomePage() {
 
                   <div className="flex items-start gap-4">
                     <div className="w-12 h-12 bg-accent/10 rounded-lg flex items-center justify-center shrink-0">
-                      <Mail className="w-6 h-6 text-accent" />
+                      <div className="w-6 h-6 text-accent" />
                     </div>
                     <div>
                       <h4 className="font-bold text-primary mb-1">Email</h4>
@@ -560,7 +560,7 @@ export default function HomePage() {
 
                   <div className="flex items-start gap-4">
                     <div className="w-12 h-12 bg-accent/10 rounded-lg flex items-center justify-center shrink-0">
-                      <MapPin className="w-6 h-6 text-accent" />
+                      <div className="w-6 h-6 text-accent" />
                     </div>
                     <div>
                       <h4 className="font-bold text-primary mb-1">Address</h4>
