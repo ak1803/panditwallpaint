@@ -60,7 +60,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
           <div className="flex items-center justify-between">
             <Link to="/" className="flex items-center gap-2">
               {/* <Paintbrush className="w-6 h-6 md:w-7 md:h-7 text-accent" />
-              <span className="font-bold text-lg md:text-xl text-primary">Pandit Painting Services</span> */}
+              <span className="font-bold text-lg md:text-xl text-primary">Pandit Home Wall Paint</span> */}
               <img src={myLocalImage} alt=""  className="brand-img"/>
             </Link>
 
@@ -189,11 +189,11 @@ export default function Layout({ children }: { children: React.ReactNode }) {
             <div className="md:col-span-2">
               <div className="flex items-center gap-2 mb-4">
                 {/* <Paintbrush className="w-8 h-8 text-accent" />
-                <span className="font-bold text-2xl">Pandit Painting Services</span> */}
+                <span className="font-bold text-2xl">Pandit Home Wall Paint</span> */}
                  <img src={myLocalImageWhite} alt=""/>
               </div>
               <p className="text-white/70 mb-4 leading-relaxed">
-                Pandit Painting Services is a one stop destination offering you end to end solution to design and create spaces you can cherish. A startup assuring you hassle free deals with best quality material and Skillful Craftsman to make your home into heaven.
+                Pandit Home Wall Paint is a one stop destination offering you end to end solution to design and create spaces you can cherish. A startup assuring you hassle free deals with best quality material and Skillful Craftsman to make your home into heaven.
               </p>
               <div className="flex items-center gap-4">
                 <a href="#" className="w-10 h-10 bg-white/10 rounded-full flex items-center justify-center hover:bg-accent transition-colors">
