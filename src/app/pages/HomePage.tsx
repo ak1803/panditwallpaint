@@ -82,8 +82,8 @@ export default function HomePage() {
             </p>
           </div>
 
-          <div className="grid md:grid-cols-3 gap-8">
-            <div className="text-center">
+          <div className="grid md:grid-cols-3 gap-8 border-box">
+            <div className="text-center box">
               <div className="w-20 h-20 bg-accent rounded-full flex items-center justify-center mx-auto mb-6">
                 <Calendar className="w-10 h-10 text-white" />
               </div>
@@ -96,7 +96,7 @@ export default function HomePage() {
               </p>
             </div>
 
-            <div className="text-center">
+            <div className="text-center box">
               <div className="w-20 h-20 bg-accent rounded-full flex items-center justify-center mx-auto mb-6">
                 <Eye className="w-10 h-10 text-white" />
               </div>
@@ -109,7 +109,7 @@ export default function HomePage() {
               </p>
             </div>
 
-            <div className="text-center">
+            <div className="text-center box">
               <div className="w-20 h-20 bg-accent rounded-full flex items-center justify-center mx-auto mb-6">
                 <Palette className="w-10 h-10 text-white" />
               </div>
