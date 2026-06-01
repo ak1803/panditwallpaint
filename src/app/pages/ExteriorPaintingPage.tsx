@@ -1,4 +1,4 @@
-import { HomePage, CheckCircle, Award, Shield } from 'lucide-react';
+import { Home, CheckCircle, Award, Shield } from 'lucide-react';
 import { Link } from 'react-router';
 
 export default function ExteriorPaintingPage() {

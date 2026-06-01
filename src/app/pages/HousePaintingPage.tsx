@@ -1,4 +1,4 @@
-import { HomePage, CheckCircle, Palette } from 'lucide-react';
+import { Home, CheckCircle, Palette } from 'lucide-react';
 import { Link } from 'react-router';
 
 export default function HousePaintingPage() {
