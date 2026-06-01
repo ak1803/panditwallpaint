@@ -1,4 +1,4 @@
-import { Home, CheckCircle, Award, Palette } from 'lucide-react';
+import { HomePage ,CheckCircle, Award, Palette } from 'lucide-react';
 import { Link } from 'react-router';
 
 export default function InteriorPaintingPage() {

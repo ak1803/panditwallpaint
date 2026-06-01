@@ -215,7 +215,7 @@ export default function App() {
     //       <div className="grid md:grid-cols-3 gap-8">
     //         <div className="bg-card p-8 rounded-2xl shadow-lg hover:shadow-xl transition-shadow group">
     //           <div className="w-14 h-14 bg-accent/10 rounded-xl flex items-center justify-center mb-6 group-hover:bg-accent/20 transition-colors">
-    //             <Home className="w-7 h-7 text-accent" />
+    //             <HomePage className="w-7 h-7 text-accent" />
     //           </div>
     //           <h3 className="text-2xl font-bold text-primary mb-4">Interior Painting</h3>
     //           <p className="text-muted-foreground leading-relaxed mb-4">
@@ -311,7 +311,7 @@ export default function App() {
 
     //         <div className="bg-card p-8 rounded-2xl shadow-lg hover:shadow-xl transition-shadow group">
     //           <div className="w-14 h-14 bg-accent/10 rounded-xl flex items-center justify-center mb-6 group-hover:bg-accent/20 transition-colors">
-    //             <Home className="w-7 h-7 text-accent" />
+    //             <HomePage className="w-7 h-7 text-accent" />
     //           </div>
     //           <h3 className="text-2xl font-bold text-primary mb-4">House Painting</h3>
     //           <p className="text-muted-foreground leading-relaxed mb-4">
