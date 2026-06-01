@@ -327,7 +327,7 @@ export default function HomePage() {
                 />
               </div>
 
-              <div className="grid grid-cols-2 gap-6">
+              <div className="grid md:grid-cols-2 gap-6">
                 <div className="bg-card p-6 rounded-xl shadow-lg text-center">
                   <div className="w-12 h-12 bg-accent/10 rounded-lg flex items-center justify-center mx-auto mb-4">
                     <Award className="w-6 h-6 text-accent" />
