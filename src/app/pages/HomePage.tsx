@@ -470,24 +470,10 @@ export default function HomePage() {
 
 
 
+
+
 {/* contact us */}
         <div className="min-h-screen bg-background">
-      <section className="relative py-32 bg-gradient-to-br from-primary to-primary/90 text-white">
-        <div className="max-w-7xl mx-auto px-6">
-          <div className="max-w-3xl">
-            <div className="flex items-center gap-2 mb-4 text-accent text-sm md:text-base">
-              <Link to="/" className="hover:underline">Home</Link>
-              <span>/</span>
-              <span>Contact Us</span>
-            </div>
-            <h1 className="text-4xl md:text-6xl font-extrabold mb-6">Contact Us</h1>
-            <p className="text-lg md:text-xl text-white/90 leading-relaxed">
-              Ready to start your project! Get in touch with us today for a free consultation.
-            </p>
-          </div>
-        </div>
-      </section>
-
       <section className="py-24">
         <div className="max-w-7xl mx-auto px-6">
           <div className="grid md:grid-cols-2 gap-12">
