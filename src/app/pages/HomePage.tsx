@@ -1,5 +1,8 @@
 import { Calendar, Home, Paintbrush, Shield, Award, Sparkles, Eye, Palette, Award, Users, Shield, CheckCircle, Phone, Mail, MapPin } from 'lucide-react';
 import { useState } from 'react';
+import { Link } from 'react-router';
+
+
 
 export default function HomePage() {
   const scrollToSection = (id: string) => {
