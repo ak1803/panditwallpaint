@@ -30,12 +30,18 @@ export default function HomePage() {
   return (
     <>
       {/* Hero Section */}
-      <section id="home" className="relative min-h-screen flex items-center overflow-hidden" 
-      initial={{ opacity: 0, y: 100 }}
-      whileInView={{ opacity: 1, y: 0 }}
-      viewport={{ once: true }}
-      transition={{ duration: 0.8 }}
-      >
+       <motion.div
+          key={card}
+          initial={{ opacity: 0, y: 50 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{
+            duration: 0.6,
+            delay: index * 0.2,
+          }}
+        >
+
+      <section id="home" className="relative min-h-screen flex items-center overflow-hidden" >
         <div className="absolute inset-0 bg-gradient-to-br from-primary via-primary to-primary/90" />
         <div className="absolute top-0 right-0 w-1/2 h-full bg-accent" style={{ clipPath: 'polygon(30% 0, 100% 0, 100% 100%, 0% 100%)' }} />
 
@@ -76,6 +82,8 @@ export default function HomePage() {
           </div>
         </div>
       </section>
+
+      </motion.div>
 
       {/* How It Works Section */}
       <section id="how-it-works" className="py-24 bg-background">
