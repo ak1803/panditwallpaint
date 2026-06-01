@@ -459,27 +459,43 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Contact Section */}
-      {/* <section id="contact" className="py-24 bg-secondary">
+
+
+
+
+
+{/* contact us */}
+        <div className="min-h-screen bg-background">
+      <section className="relative py-32 bg-gradient-to-br from-primary to-primary/90 text-white">
         <div className="max-w-7xl mx-auto px-6">
-          <div className="text-center mb-12">
-            <h2 className="text-4xl md:text-5xl font-bold text-primary mb-4">Contact Us</h2>
-            <p className="text-xl text-muted-foreground">
-              Ready to start your project! Get in touch with us today.
+          <div className="max-w-3xl">
+            <div className="flex items-center gap-2 mb-4 text-accent text-sm md:text-base">
+              <Link to="/" className="hover:underline">Home</Link>
+              <span>/</span>
+              <span>Contact Us</span>
+            </div>
+            <h1 className="text-4xl md:text-6xl font-extrabold mb-6">Contact Us</h1>
+            <p className="text-lg md:text-xl text-white/90 leading-relaxed">
+              Ready to start your project! Get in touch with us today for a free consultation.
             </p>
           </div>
+        </div>
+      </section>
 
+      <section className="py-24">
+        <div className="max-w-7xl mx-auto px-6">
           <div className="grid md:grid-cols-2 gap-12">
             <div className="bg-card p-8 md:p-12 rounded-2xl shadow-xl">
               <h3 className="text-2xl font-bold text-primary mb-6">Send Us a Message</h3>
-              <form  className="space-y-6">
+              <form onSubmit={handleSubmit} className="space-y-6">
                 <div className="grid md:grid-cols-2 gap-6">
                   <div>
                     <label className="block text-sm font-semibold text-foreground mb-2">Your Name</label>
                     <input
                       type="text"
                       required
-                     
+                      value={formData.name}
+                      onChange={(e) => setFormData({ ...formData, name: e.target.value })}
                       className="w-full px-4 py-3 bg-input-background border border-border rounded-lg focus:outline-none focus:ring-2 focus:ring-ring"
                       placeholder="Enter your name"
                     />
@@ -489,7 +505,8 @@ export default function HomePage() {
                     <input
                       type="email"
                       required
-                     
+                      value={formData.email}
+                      onChange={(e) => setFormData({ ...formData, email: e.target.value })}
                       className="w-full px-4 py-3 bg-input-background border border-border rounded-lg focus:outline-none focus:ring-2 focus:ring-ring"
                       placeholder="Enter your email"
                     />
@@ -501,7 +518,8 @@ export default function HomePage() {
                   <input
                     type="tel"
                     required
-                    
+                    value={formData.phone}
+                    onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
                     className="w-full px-4 py-3 bg-input-background border border-border rounded-lg focus:outline-none focus:ring-2 focus:ring-ring"
                     placeholder="Enter your phone number"
                   />
@@ -511,6 +529,8 @@ export default function HomePage() {
                   <label className="block text-sm font-semibold text-foreground mb-2">Project Details</label>
                   <textarea
                     required
+                    value={formData.message}
+                    onChange={(e) => setFormData({ ...formData, message: e.target.value })}
                     rows={5}
                     className="w-full px-4 py-3 bg-input-background border border-border rounded-lg focus:outline-none focus:ring-2 focus:ring-ring resize-none"
                     placeholder="Tell us about your painting project..."
@@ -526,15 +546,13 @@ export default function HomePage() {
               </form>
             </div>
 
-           
-
             <div className="space-y-8">
               <div className="bg-card p-8 rounded-2xl shadow-lg">
                 <h3 className="text-2xl font-bold text-primary mb-6">Contact Information</h3>
                 <div className="space-y-6">
                   <div className="flex items-start gap-4">
                     <div className="w-12 h-12 bg-accent/10 rounded-lg flex items-center justify-center shrink-0">
-                      <div className="w-6 h-6 text-accent" />
+                      <Phone className="w-6 h-6 text-accent" />
                     </div>
                     <div>
                       <h4 className="font-bold text-primary mb-1">Phone</h4>
@@ -546,7 +564,7 @@ export default function HomePage() {
 
                   <div className="flex items-start gap-4">
                     <div className="w-12 h-12 bg-accent/10 rounded-lg flex items-center justify-center shrink-0">
-                      <div className="w-6 h-6 text-accent" />
+                      <Mail className="w-6 h-6 text-accent" />
                     </div>
                     <div>
                       <h4 className="font-bold text-primary mb-1">Email</h4>
@@ -558,7 +576,7 @@ export default function HomePage() {
 
                   <div className="flex items-start gap-4">
                     <div className="w-12 h-12 bg-accent/10 rounded-lg flex items-center justify-center shrink-0">
-                      <div className="w-6 h-6 text-accent" />
+                      <MapPin className="w-6 h-6 text-accent" />
                     </div>
                     <div>
                       <h4 className="font-bold text-primary mb-1">Address</h4>
@@ -587,11 +605,13 @@ export default function HomePage() {
             </div>
           </div>
         </div>
-      </section> */}
+      </section>
+    </div>
+
 
 
       {/* get in touch Section */}
-      <section id="contact" className="py-24 bg-background">
+      {/* <section id="contact" className="py-24 bg-background">
         <div className="max-w-4xl mx-auto px-6 text-center">
           <h2 className="text-4xl md:text-5xl font-bold text-primary mb-6">Get In Touch</h2>
           <p className="text-xl text-muted-foreground mb-8">
@@ -606,7 +626,7 @@ export default function HomePage() {
             </a>
           </div>
         </div>
-      </section>
+      </section> */}
     </>
   );
 }
