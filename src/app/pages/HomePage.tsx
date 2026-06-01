@@ -337,7 +337,7 @@ export default function HomePage() {
       </section>
 
       {/* Gallery Section */}
-      <section id="gallery" className="py-24 bg-primary text-white">
+      {/* <section id="gallery" className="py-24 bg-primary text-white">
         <div className="max-w-7xl mx-auto px-6">
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold mb-4">Gallery</h2>
@@ -432,10 +432,10 @@ export default function HomePage() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* Contact Section */}
-      <section id="contact" className="py-24 bg-secondary">
+      {/* <section id="contact" className="py-24 bg-secondary">
         <div className="max-w-7xl mx-auto px-6">
           <div className="text-center mb-12">
             <h2 className="text-4xl md:text-5xl font-bold text-primary mb-4">Contact Us</h2>
@@ -565,10 +565,10 @@ export default function HomePage() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* Footer */}
-      <footer className="bg-primary text-white py-12">
+      {/* <footer className="bg-primary text-white py-12">
         <div className="max-w-7xl mx-auto px-6">
           <div className="grid md:grid-cols-4 gap-8 mb-8">
             <div className="md:col-span-2">
@@ -619,7 +619,7 @@ export default function HomePage() {
             <p>© 2020 GPS | Design By: BigHost India Private Limited</p>
           </div>
         </div>
-      </footer>
+      </footer> */}
       
       {/* About Section */}
       {/* <section id="about" className="py-24 bg-secondary">
