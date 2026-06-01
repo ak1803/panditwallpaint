@@ -1,7 +1,7 @@
 
-  # Create Guru Painting Services Website
+  # Create Pandit Painting Services Website
 
-  This is a code bundle for Create Guru Painting Services Website. The original project is available at https://www.figma.com/design/nhoYHSIc3yWWXIOjSbNo6g/Create-Guru-Painting-Services-Website.
+  This is a code bundle for Create Pandit Painting Services Website. The original project is available at https://www.figma.com/design/nhoYHSIc3yWWXIOjSbNo6g/Create-Guru-Painting-Services-Website.
 
   ## Running the code
 

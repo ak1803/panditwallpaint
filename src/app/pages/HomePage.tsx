@@ -36,7 +36,7 @@ export default function HomePage() {
 
         <div className="relative max-w-7xl mx-auto px-6 py-20 grid md:grid-cols-2 gap-12 items-center">
           <div className="text-white z-10">
-            <p className="text-lg md:text-xl mb-4 text-accent font-semibold">Welcome to Guru Painting Services</p>
+            <p className="text-lg md:text-xl mb-4 text-accent font-semibold">Welcome to Pandit Painting Services</p>
             <h1 className="text-5xl md:text-7xl font-extrabold leading-tight mb-6">
               India's Trusted Painting Services
             </h1>
@@ -44,7 +44,7 @@ export default function HomePage() {
               Looking for the best painters?
             </p>
             <p className="text-lg mb-4 text-white/80 leading-relaxed">
-              Guru Painting Services is a one stop destination offering you end to end solution to design and create spaces you can cherish.
+              Pandit Painting Services is a one stop destination offering you end to end solution to design and create spaces you can cherish.
             </p>
             <p className="text-lg mb-8 text-white/80 leading-relaxed">
               A startup assuring you hassle free deals with best quality material and Skillful Craftsman to make your home into heaven.
@@ -295,7 +295,7 @@ export default function HomePage() {
             <div>
               <h2 className="text-4xl md:text-5xl font-bold text-primary mb-6">About Us</h2>
               <p className="text-lg text-foreground leading-relaxed mb-8">
-                Guru Painting Services is a one stop destination offering you end to end solution to design and create spaces you can cherish. A startup assuring you hassle free deals with best quality material and Skillful Craftsman to make your home into heaven.
+                Pandit Painting Services is a one stop destination offering you end to end solution to design and create spaces you can cherish. A startup assuring you hassle free deals with best quality material and Skillful Craftsman to make your home into heaven.
               </p>
               <p className="text-lg text-foreground leading-relaxed mb-8">
                 Our painters are certified from Asian Paint academy - top rated, local house painters with 100% accountability. We are committed to delivering excellence in every project.
@@ -371,7 +371,7 @@ export default function HomePage() {
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold mb-4">Gallery</h2>
             <p className="text-xl text-white/80 max-w-2xl mx-auto">
-              All projects of Guru Painting Services have achieved milestones
+              All projects of Pandit Painting Services have achieved milestones
             </p>
           </div>
 

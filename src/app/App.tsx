@@ -61,7 +61,7 @@ export default function App() {
     //     <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
     //       <div className="flex items-center gap-2">
     //         <Paintbrush className="w-7 h-7 text-accent" />
-    //         <span className="font-bold text-xl text-primary">Guru Painting Services</span>
+    //         <span className="font-bold text-xl text-primary">Pandit Painting Services</span>
     //       </div>
     //       <div className="hidden lg:flex items-center gap-6">
     //         <button onClick={() => scrollToSection('home')} className="text-foreground hover:text-accent transition-colors font-medium">Home</button>
@@ -113,7 +113,7 @@ export default function App() {
 
     //     <div className="relative max-w-7xl mx-auto px-6 py-20 grid md:grid-cols-2 gap-12 items-center">
     //       <div className="text-white z-10">
-    //         <p className="text-lg md:text-xl mb-4 text-accent font-semibold">Welcome to Guru Painting Services</p>
+    //         <p className="text-lg md:text-xl mb-4 text-accent font-semibold">Welcome to Pandit Painting Services</p>
     //         <h1 className="text-5xl md:text-7xl font-extrabold leading-tight mb-6">
     //           India's Trusted Painting Services
     //         </h1>
@@ -121,7 +121,7 @@ export default function App() {
     //           Looking for the best painters?
     //         </p>
     //         <p className="text-lg mb-4 text-white/80 leading-relaxed">
-    //           Guru Painting Services is a one stop destination offering you end to end solution to design and create spaces you can cherish.
+    //           Pandit Painting Services is a one stop destination offering you end to end solution to design and create spaces you can cherish.
     //         </p>
     //         <p className="text-lg mb-8 text-white/80 leading-relaxed">
     //           A startup assuring you hassle free deals with best quality material and Skillful Craftsman to make your home into heaven.
@@ -367,7 +367,7 @@ export default function App() {
     //         <div>
     //           <h2 className="text-4xl md:text-5xl font-bold text-primary mb-6">About Us</h2>
     //           <p className="text-lg text-foreground leading-relaxed mb-8">
-    //             Guru Painting Services is a one stop destination offering you end to end solution to design and create spaces you can cherish. A startup assuring you hassle free deals with best quality material and Skillful Craftsman to make your home into heaven.
+    //             Pandit Painting Services is a one stop destination offering you end to end solution to design and create spaces you can cherish. A startup assuring you hassle free deals with best quality material and Skillful Craftsman to make your home into heaven.
     //           </p>
     //           <p className="text-lg text-foreground leading-relaxed mb-8">
     //             Our painters are certified from Asian Paint academy - top rated, local house painters with 100% accountability. We are committed to delivering excellence in every project.
@@ -441,7 +441,7 @@ export default function App() {
     //       <div className="text-center mb-16">
     //         <h2 className="text-4xl md:text-5xl font-bold mb-4">Gallery</h2>
     //         <p className="text-xl text-white/80 max-w-2xl mx-auto">
-    //           All projects of Guru Painting Services have achieved milestones
+    //           All projects of Pandit Painting Services have achieved milestones
     //         </p>
     //       </div>
 
@@ -673,10 +673,10 @@ export default function App() {
     //         <div className="md:col-span-2">
     //           <div className="flex items-center gap-2 mb-4">
     //             <Paintbrush className="w-8 h-8 text-accent" />
-    //             <span className="font-bold text-2xl">Guru Painting Services</span>
+    //             <span className="font-bold text-2xl">Pandit Painting Services</span>
     //           </div>
     //           <p className="text-white/70 mb-4 leading-relaxed">
-    //             Guru Painting Services is a one stop destination offering you end to end solution to design and create spaces you can cherish. A startup assuring you hassle free deals with best quality material and Skillful Craftsman to make your home into heaven.
+    //             Pandit Painting Services is a one stop destination offering you end to end solution to design and create spaces you can cherish. A startup assuring you hassle free deals with best quality material and Skillful Craftsman to make your home into heaven.
     //           </p>
     //           <div className="flex items-center gap-4">
     //             <a href="#" className="w-10 h-10 bg-white/10 rounded-full flex items-center justify-center hover:bg-accent transition-colors">
