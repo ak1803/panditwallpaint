@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { Link, useLocation } from 'react-router';
 import { Paintbrush, Phone, Mail, ChevronDown, Menu, X, Facebook, Twitter, Youtube } from 'lucide-react';
-import myLocalImage from '../assets/brand-logo.png';
+// import myLocalImage from '../assets/brand-logo.png';
 
 export default function Layout({ children }: { children: React.ReactNode }) {
   const [servicesOpen, setServicesOpen] = useState(false);
@@ -60,7 +60,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
             <Link to="/" className="flex items-center gap-2">
               {/* <Paintbrush className="w-6 h-6 md:w-7 md:h-7 text-accent" />
               <span className="font-bold text-lg md:text-xl text-primary">Pandit Painting Services</span> */}
-              <img src={myLocalImage} alt="" style="width:200px;" />
+              {/* <img src={myLocalImage} alt="" style="width:200px;" /> */}
             </Link>
 
             {/* Mobile Menu Toggle */}
