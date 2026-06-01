@@ -60,7 +60,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
             <Link to="/" className="flex items-center gap-2">
               {/* <Paintbrush className="w-6 h-6 md:w-7 md:h-7 text-accent" />
               <span className="font-bold text-lg md:text-xl text-primary">Pandit Painting Services</span> */}
-              <img src={myLocalImage} alt="" className="w-5/12"/>
+              <img src={myLocalImage} alt=""/>
             </Link>
 
             {/* Mobile Menu Toggle */}
