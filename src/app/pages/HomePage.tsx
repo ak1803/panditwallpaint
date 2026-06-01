@@ -473,7 +473,7 @@ export default function HomePage() {
 
 
 {/* contact us */}
-        <div className="min-h-screen bg-background">
+        <div className="min-h-screen bg-background bg-secondary">
       <section className="py-24">
         <div className="max-w-7xl mx-auto px-6">
           <div className="grid md:grid-cols-2 gap-12">
