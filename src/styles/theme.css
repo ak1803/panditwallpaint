@@ -197,10 +197,11 @@
 }
 
 
-  
+
 .brand-img{width:220px;}
 
 @media(min-width: 320px) and (max-width: 762){
   .brand-img{width:190px;}
+  .mob-txt{color:#fff}
 }
 

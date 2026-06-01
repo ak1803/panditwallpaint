@@ -36,7 +36,7 @@ export default function HomePage() {
 
         <div className="relative max-w-7xl mx-auto px-6 py-20 grid md:grid-cols-2 gap-12 items-center">
           <div className="text-white z-10">
-            <p className="text-lg md:text-xl mb-4 text-accent font-semibold">Welcome to Pandit Home Wall Paint</p>
+            <p className="text-lg md:text-xl mb-4 text-accent font-semibold mob-txt">Welcome to Pandit Home Wall Paint</p>
             <h1 className="text-5xl md:text-7xl font-extrabold leading-tight mb-6">
               India's Trusted Painting Services
             </h1>
