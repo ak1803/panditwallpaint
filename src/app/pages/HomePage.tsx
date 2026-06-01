@@ -5,25 +5,32 @@ import { Link } from 'react-router';
 
 
 export default function HomePage() {
-  const scrollToSection = (id: string) => {
-    document.getElementById(id)?.scrollIntoView({ behavior: 'smooth' });
-
+  
   const [formData, setFormData] = useState({ name: '', email: '', phone: '', message: '' });
   const [servicesOpen, setServicesOpen] = useState(false);
   const [galleryOpen, setGalleryOpen] = useState(false);
 
-  const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
-    console.log('Form submitted:', formData);
-    alert('Thank you for your interest! We will contact you soon.');
-    setFormData({ name: '', email: '', phone: '', message: '' });
-  };
 
+  const scrollToSection = (id: string) => {
+    document.getElementById(id)?.scrollIntoView({ behavior: 'smooth' });
   const scrollToSection = (id: string) => {
     document.getElementById(id)?.scrollIntoView({ behavior: 'smooth' });
     setServicesOpen(false);
     setGalleryOpen(false);
   };
+
+  
+  };
+
+
+
+    
+
+ const handleSubmit = (e: React.FormEvent) => {
+    e.preventDefault();
+    console.log('Form submitted:', formData);
+    alert('Thank you for your interest! We will contact you soon.');
+    setFormData({ name: '', email: '', phone: '', message: '' });
   };
 
   return (
