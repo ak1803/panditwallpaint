@@ -308,7 +308,7 @@ export default function HomePage() {
                 </p>
               </div>
 
-              <div className="bg-card p-8 rounded-2xl">
+              <div className="bg-card p-8 rounded-2xl bg-secondary">
                 <h3 className="text-2xl font-bold text-primary mb-4">Who We Are?</h3>
                 <p className="text-foreground leading-relaxed">
                   We are a team of engineers and problem solvers dedicated to transforming the home painting industry. Our vision is to streamline processes and empower skilled painters with technology and support.
