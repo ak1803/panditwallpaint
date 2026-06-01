@@ -715,7 +715,7 @@ export default function App() {
     //       </div>
 
     //       <div className="border-t border-white/10 pt-8 text-center text-sm text-white/60">
-    //         <p>© 2020 GPS | Design By: BigHost India Private Limited</p>
+    //         <p>© 2020 GPS | Design By: Creative Tech Pvt. Ltd</p>
     //       </div>
     //     </div>
     //   </footer>
