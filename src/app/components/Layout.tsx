@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { Link, useLocation } from 'react-router';
 import { Paintbrush, Phone, Mail, ChevronDown, Menu, X, Facebook, Twitter, Youtube } from 'lucide-react';
 import myLocalImage from '../assets/brand-logo.png';
+import myLocalImageWhite from '../assets/brand-logo-white.png';
 
 export default function Layout({ children }: { children: React.ReactNode }) {
   const [servicesOpen, setServicesOpen] = useState(false);
@@ -189,7 +190,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
               <div className="flex items-center gap-2 mb-4">
                 {/* <Paintbrush className="w-8 h-8 text-accent" />
                 <span className="font-bold text-2xl">Pandit Painting Services</span> */}
-                 <img src={myLocalImage} alt=""/>
+                 <img src={myLocalImageWhite} alt=""/>
               </div>
               <p className="text-white/70 mb-4 leading-relaxed">
                 Pandit Painting Services is a one stop destination offering you end to end solution to design and create spaces you can cherish. A startup assuring you hassle free deals with best quality material and Skillful Craftsman to make your home into heaven.
