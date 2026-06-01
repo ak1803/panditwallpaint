@@ -1,4 +1,4 @@
-import { Calendar, Home, Eye, Palette, Award, Users, Shield, CheckCircle } from 'lucide-react';
+import { Calendar, Home, Paintbrush, Shield, Award, Sparkles, Eye, Palette, Award, Users, Shield, CheckCircle } from 'lucide-react';
 
 
 export default function HomePage() {
@@ -161,7 +161,7 @@ export default function HomePage() {
 
             <div className="bg-card p-8 rounded-2xl shadow-lg hover:shadow-xl transition-shadow group">
               <div className="w-14 h-14 bg-accent/10 rounded-xl flex items-center justify-center mb-6 group-hover:bg-accent/20 transition-colors">
-                <div className="w-7 h-7 text-accent" />
+                <Paintbrush className="w-7 h-7 text-accent" />
               </div>
               <h3 className="text-2xl font-bold text-primary mb-4">Exterior Painting</h3>
               <p className="text-muted-foreground leading-relaxed mb-4">
@@ -185,7 +185,7 @@ export default function HomePage() {
 
             <div className="bg-card p-8 rounded-2xl shadow-lg hover:shadow-xl transition-shadow group">
               <div className="w-14 h-14 bg-accent/10 rounded-xl flex items-center justify-center mb-6 group-hover:bg-accent/20 transition-colors">
-                <div className="w-7 h-7 text-accent" />
+                <Shield className="w-7 h-7 text-accent" />
               </div>
               <h3 className="text-2xl font-bold text-primary mb-4">Waterproof Painting</h3>
               <p className="text-muted-foreground leading-relaxed mb-4">
@@ -209,7 +209,7 @@ export default function HomePage() {
 
             <div className="bg-card p-8 rounded-2xl shadow-lg hover:shadow-xl transition-shadow group">
               <div className="w-14 h-14 bg-accent/10 rounded-xl flex items-center justify-center mb-6 group-hover:bg-accent/20 transition-colors">
-                <div className="w-7 h-7 text-accent" />
+                <Sparkles className="w-7 h-7 text-accent" />
               </div>
               <h3 className="text-2xl font-bold text-primary mb-4">Wall Painting</h3>
               <p className="text-muted-foreground leading-relaxed mb-4">
@@ -233,7 +233,7 @@ export default function HomePage() {
 
             <div className="bg-card p-8 rounded-2xl shadow-lg hover:shadow-xl transition-shadow group">
               <div className="w-14 h-14 bg-accent/10 rounded-xl flex items-center justify-center mb-6 group-hover:bg-accent/20 transition-colors">
-                <div className="w-7 h-7 text-accent" />
+                <Home className="w-7 h-7 text-accent" />
               </div>
               <h3 className="text-2xl font-bold text-primary mb-4">House Painting</h3>
               <p className="text-muted-foreground leading-relaxed mb-4">
@@ -257,7 +257,7 @@ export default function HomePage() {
 
             <div className="bg-card p-8 rounded-2xl shadow-lg hover:shadow-xl transition-shadow group">
               <div className="w-14 h-14 bg-accent/10 rounded-xl flex items-center justify-center mb-6 group-hover:bg-accent/20 transition-colors">
-                <div className="w-7 h-7 text-accent" />
+                <Award className="w-7 h-7 text-accent" />
               </div>
               <h3 className="text-2xl font-bold text-primary mb-4">Terrace Waterproofing</h3>
               <p className="text-muted-foreground leading-relaxed mb-4">
