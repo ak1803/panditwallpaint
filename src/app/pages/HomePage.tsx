@@ -262,7 +262,7 @@ export default function HomePage() {
       </section> */}
 
       {/* About Section */}
-      {/* <section id="about" className="py-24 bg-background">
+      <section id="about" className="py-24 bg-background">
         <div className="max-w-7xl mx-auto px-6">
           <div className="grid md:grid-cols-2 gap-16 items-center">
             <div>
@@ -334,7 +334,7 @@ export default function HomePage() {
             </div>
           </div>
         </div>
-      </section> */}
+      </section>
 
       {/* Gallery Section */}
       {/* <section id="gallery" className="py-24 bg-primary text-white">
