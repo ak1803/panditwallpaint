@@ -41,11 +41,11 @@ export default function App() {
     //       <div className="flex items-center gap-6">
     //         <a href="tel:+918668415858" className="flex items-center gap-2 hover:text-accent transition-colors">
     //           <Phone className="w-4 h-4" />
-    //           <span>+91 8668415858</span>
+    //           <span>+91 7745871308</span>
     //         </a>
-    //         <a href="mailto:contact@gurupaintingservices.in" className="flex items-center gap-2 hover:text-accent transition-colors">
+    //         <a href="mailto:sanghapalpandit@gmail.com" className="flex items-center gap-2 hover:text-accent transition-colors">
     //           <Mail className="w-4 h-4" />
-    //           <span>contact@gurupaintingservices.in</span>
+    //           <span>sanghapalpandit@gmail.com</span>
     //         </a>
     //       </div>
     //       <div className="flex items-center gap-4">
@@ -616,7 +616,7 @@ export default function App() {
     //                 <div>
     //                   <h4 className="font-bold text-primary mb-1">Phone</h4>
     //                   <a href="tel:+918668415858" className="text-muted-foreground hover:text-accent transition-colors">
-    //                     +91 8668415858
+    //                     +91 7745871308
     //                   </a>
     //                 </div>
     //               </div>
@@ -627,8 +627,8 @@ export default function App() {
     //                 </div>
     //                 <div>
     //                   <h4 className="font-bold text-primary mb-1">Email</h4>
-    //                   <a href="mailto:contact@gurupaintingservices.in" className="text-muted-foreground hover:text-accent transition-colors break-all">
-    //                     contact@gurupaintingservices.in
+    //                   <a href="mailto:sanghapalpandit@gmail.com" className="text-muted-foreground hover:text-accent transition-colors break-all">
+    //                     sanghapalpandit@gmail.com
     //                   </a>
     //                 </div>
     //               </div>
@@ -658,7 +658,7 @@ export default function App() {
     //               href="tel:+918668415858"
     //               className="inline-block bg-accent text-white px-8 py-4 rounded-lg font-semibold hover:opacity-90 transition-opacity"
     //             >
-    //               Call Now: +91 8668415858
+    //               Call Now: +91 7745871308
     //             </a>
     //           </div>
     //         </div>

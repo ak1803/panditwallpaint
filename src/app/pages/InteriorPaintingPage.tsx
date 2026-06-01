@@ -129,7 +129,7 @@ export default function InteriorPaintingPage() {
               href="tel:+918668415858"
               className="bg-white/10 backdrop-blur text-white px-8 py-4 rounded-lg text-lg font-semibold border-2 border-white/30 hover:bg-white/20 transition-colors"
             >
-              Call: +91 8668415858
+              Call: +91 7745871308
             </a>
           </div>
         </div>

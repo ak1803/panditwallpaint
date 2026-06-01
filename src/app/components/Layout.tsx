@@ -36,11 +36,11 @@ export default function Layout({ children }: { children: React.ReactNode }) {
           <div className="flex items-center gap-4 md:gap-6 flex-wrap">
             <a href="tel:+918668415858" className="flex items-center gap-2 hover:text-accent transition-colors text-xs md:text-sm">
               <Phone className="w-3 h-3 md:w-4 md:h-4" />
-              <span>+91 8668415858</span>
+              <span>+91 7745871308</span>
             </a>
-            <a href="mailto:contact@gurupaintingservices.in" className="flex items-center gap-2 hover:text-accent transition-colors text-xs md:text-sm">
+            <a href="mailto:sanghapalpandit@gmail.com" className="flex items-center gap-2 hover:text-accent transition-colors text-xs md:text-sm">
               <Mail className="w-3 h-3 md:w-4 md:h-4" />
-              <span className="hidden sm:inline">contact@gurupaintingservices.in</span>
+              <span className="hidden sm:inline">sanghapalpandit@gmail.com</span>
               <span className="sm:hidden">Email Us</span>
             </a>
           </div>
