@@ -108,7 +108,7 @@ export default async function handler(req: any, res: any) {
       },
       body: JSON.stringify({
         from: 'website@pandithomewallpainting.com', // Your verified domain
-        to: 'sanghapalpandit@gmail.com',
+        to: 'jakshay18397@gmail.com',
         subject: `New Contact Form Submission from ${name}`,
         html: emailHTML,
         reply_to: email,
