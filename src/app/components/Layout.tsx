@@ -196,11 +196,11 @@ export default function Layout({ children }: { children: React.ReactNode }) {
                 Pandit Home Wall Paint is a one stop destination offering you end to end solution to design and create spaces you can cherish. A startup assuring you hassle free deals with best quality material and Skillful Craftsman to make your home into heaven.
               </p>
               <div className="flex items-center gap-4">
-                <a href="#" className="w-10 h-10 bg-white/10 rounded-full flex items-center justify-center hover:bg-accent transition-colors">
+                <a href="https://www.facebook.com/profile.php?id=61586744439318&rdid=XlIqOiuMrQRJorl3&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F1GZjFiMzai%2F#" className="w-10 h-10 bg-white/10 rounded-full flex items-center justify-center hover:bg-accent transition-colors">
                   <Facebook className="w-5 h-5" />
                 </a>
-                <a href="#" className="w-10 h-10 bg-white/10 rounded-full flex items-center justify-center hover:bg-accent transition-colors">
-                  <Twitter className="w-5 h-5" />
+                <a href="https://www.instagram.com/pandithomewallpainting?utm_source=qr&igsh=d20wNTgwM2RzcXlp" className="w-10 h-10 bg-white/10 rounded-full flex items-center justify-center hover:bg-accent transition-colors">
+                  <Instagram className="w-5 h-5" />
                 </a>
                 {/* <a href="#" className="w-10 h-10 bg-white/10 rounded-full flex items-center justify-center hover:bg-accent transition-colors">
                   <Youtube className="w-5 h-5" />
