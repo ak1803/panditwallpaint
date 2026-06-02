@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { Link, useLocation } from 'react-router';
-import { Paintbrush, Phone, Mail, ChevronDown, Menu, X, Facebook, Twitter, Youtube, Instagram, Whatsapp } from 'lucide-react';
+import { Paintbrush, Phone, Mail, ChevronDown, Menu, X, Facebook, Twitter, Youtube, Instagram, WhatsApp } from 'lucide-react';
 import myLocalImage from '../assets/brand-logo.png';
 import myLocalImageWhite from '../assets/brand-logo-white.png';
 
@@ -49,7 +49,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
           <div className="flex items-center gap-3 md:gap-4">
             <a href="https://www.facebook.com/profile.php?id=61586744439318&rdid=XlIqOiuMrQRJorl3&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F1GZjFiMzai%2F#" className="hover:text-accent transition-colors"><Facebook className="w-3 h-3 md:w-4 md:h-4" /></a>
             <a href="https://www.instagram.com/pandithomewallpainting?utm_source=qr&igsh=d20wNTgwM2RzcXlp" className="hover:text-accent transition-colors"><Instagram className="w-3 h-3 md:w-4 md:h-4" /></a>
-            <a href="#" className="hover:text-accent transition-colors"><Whatsapp className="w-3 h-3 md:w-4 md:h-4" /></a>
+            <a href="#" className="hover:text-accent transition-colors"><WhatsApp className="w-3 h-3 md:w-4 md:h-4" /></a>
           </div>
         </div>
       </div>
