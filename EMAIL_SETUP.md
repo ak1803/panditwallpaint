@@ -223,7 +223,7 @@ const response = await fetch('/api/send-email.php', {
 ## 📱 WhatsApp Integration
 
 The WhatsApp button is already configured with:
-- **Phone Number**: +91 7745871308
+- **Phone Number**: +91 8668415858
 - **Pre-filled Message**: "Hi, I am interested in your painting services."
 - **Floating Button**: Bottom-right corner on all pages
 
