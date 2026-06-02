@@ -127,7 +127,7 @@ ${data.message}
                 📍 Chinchwad Gaon, Pimpri-Chinchwad, Maharashtra, 411033
               </p>
               <p style="margin: 5px 0 0; color: #ffffff; font-size: 12px; opacity: 0.7;">
-                📞 +91 8668415858 | ✉️ contact@gurupaintingservices.in
+                📞 +91 7745871308 | ✉️ sanghapalpandit@gmail.com
               </p>
             </td>
           </tr>

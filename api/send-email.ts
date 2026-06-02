@@ -83,7 +83,7 @@ export default async function handler(req: any, res: any) {
               <p style="margin: 0 0 10px; color: #ffffff; font-size: 14px; opacity: 0.8;">This email was sent from your website contact form</p>
               <p style="margin: 0; color: #e67e50; font-size: 13px; font-weight: 600;">Guru Painting Services - India's Trusted Painting Services</p>
               <p style="margin: 10px 0 0; color: #ffffff; font-size: 12px; opacity: 0.7;">📍 Chinchwad Gaon, Pimpri-Chinchwad, Maharashtra, 411033</p>
-              <p style="margin: 5px 0 0; color: #ffffff; font-size: 12px; opacity: 0.7;">📞 +91 8668415858 | ✉️ contact@gurupaintingservices.in</p>
+              <p style="margin: 5px 0 0; color: #ffffff; font-size: 12px; opacity: 0.7;">📞 +91 7745871308 | ✉️ sanghapalpandit@gmail.com</p>
             </td>
           </tr>
         </table>
@@ -105,8 +105,8 @@ export default async function handler(req: any, res: any) {
         'Authorization': `Bearer ${process.env.RESEND_API_KEY}`, // Add your API key in environment variables
       },
       body: JSON.stringify({
-        from: 'website@gurupaintingservices.in', // Your verified domain
-        to: 'sanghapalpandit@gmail.com',
+        from: 'https://pandithomewallpainting.com/', // Your verified domain
+        to: 'jakshay18397@gmail.com',
         subject: `New Contact Form Submission from ${name}`,
         html: emailHTML,
         reply_to: email,

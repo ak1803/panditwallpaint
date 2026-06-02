@@ -38,7 +38,7 @@ export default function ContactPage() {
     } catch (error) {
       setSubmitStatus({
         type: 'error',
-        message: 'An error occurred. Please try calling us directly at +91 8668415858'
+        message: 'An error occurred. Please try calling us directly at +91 7745871308'
       });
     } finally {
       setIsSubmitting(false);
