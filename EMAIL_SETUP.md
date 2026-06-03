@@ -223,14 +223,14 @@ const response = await fetch('/api/send-email.php', {
 ## 📱 WhatsApp Integration
 
 The WhatsApp button is already configured with:
-- **Phone Number**: +91 8668415858
+- **Phone Number**: +91  7745871308
 - **Pre-filled Message**: "Hi, I am interested in your painting services."
 - **Floating Button**: Bottom-right corner on all pages
 
 ### To Change WhatsApp Number:
 Edit in `/src/app/components/Layout.tsx` and `/src/app/pages/ContactPage.tsx`:
 ```typescript
-const whatsappNumber = '918668415858'; // Change this
+const whatsappNumber = '91 7745871308'; // Change this
 ```
 
 ---

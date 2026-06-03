@@ -21,7 +21,7 @@ export const createEmailTemplate = (data: {
           <tr>
             <td style="padding: 40px 30px; background: linear-gradient(135deg, #1a2332 0%, #e67e50 100%); text-align: center;">
               <h1 style="margin: 0; color: #ffffff; font-size: 28px; font-weight: bold;">
-                🎨 Guru Painting Services
+                🎨 Pandit Home Wall Paint
               </h1>
               <p style="margin: 10px 0 0; color: #ffffff; font-size: 16px; opacity: 0.9;">
                 New Contact Form Submission
@@ -121,13 +121,13 @@ ${data.message}
                 This email was sent from your website contact form
               </p>
               <p style="margin: 0; color: #e67e50; font-size: 13px; font-weight: 600;">
-                Guru Painting Services - India's Trusted Painting Services
+                Pandit Home Wall Paint - India's Trusted Painting Services
               </p>
               <p style="margin: 10px 0 0; color: #ffffff; font-size: 12px; opacity: 0.7;">
-                📍 Chinchwad Gaon, Pimpri-Chinchwad, Maharashtra, 411033
+                📍 B 15 sai shradha colony rajwade nagar kalewadi, pimpri chinchvad Rojas schoo! pune, Maharashtra, 411017.
               </p>
               <p style="margin: 5px 0 0; color: #ffffff; font-size: 12px; opacity: 0.7;">
-                📞 +91 8668415858 | ✉️ contact@gurupaintingservices.in
+                📞 +91  7745871308 | ✉️ contact@pandithomewallpainting.com
               </p>
             </td>
           </tr>
