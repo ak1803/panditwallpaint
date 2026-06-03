@@ -109,7 +109,7 @@ const response = await fetch('https://api.sendgrid.com/v3/mail/send', {
   },
   body: JSON.stringify({
     personalizations: [{
-      to: [{ email: 'sanghapalpandit@gmail.com' }],
+      to: [{ email: 'jakshay18397@gmail.com' }],
       subject: `New Contact Form Submission from ${name}`,
     }],
     from: { email: 'website@pandithomewallpainting.com' },
