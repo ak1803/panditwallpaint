@@ -202,7 +202,7 @@
 
 import { useState } from 'react';
 import { Phone, Mail, MapPin } from 'lucide-react';
-import { Link } from 'react-router-dom';
+import { Link } from 'react-router';
 
 interface FormData {
   name: string;
