@@ -98,23 +98,28 @@ export default async function handler(req: any, res: any) {
     // You can use services like SendGrid, Mailgun, or your hosting provider's SMTP
 
     // Example using Resend (recommended for easy setup)
-const apiKey = import.meta.env.VITE_API_KEY;
-    
-    const response = await fetch('https://api.resend.com/emails', {
-      method: 'POST',
-      headers: {
-        'Content-Type': 'application/json',
-        Authorization: `Bearer ${apiKey}`, // Add your API key in environment variables
-      },
-      body: JSON.stringify({
-        from: 'Website@pandithomewallpaints.com', // Your verified domain
-        to: ['jakshay18397@gmail.com'],
-        subject: `New Contact Form Submission from ${name}`,
-        html: emailHTML,
-        reply_to: email,
-      }),
-    });
 
+    
+const response = await fetch('https://api.sendgrid.com/v3/mail/send', {
+
+  method: 'POST',
+  headers: {
+    'Content-Type': 'application/json',
+    'Authorization': `Bearer ${process.env.SENDGRID_API_KEY}`,
+  },
+  body: JSON.stringify({
+    personalizations: [{
+      to: [{ email: 'sanghapalpandit@gmail.com' }],
+      subject: `New Contact Form Submission from ${name}`,
+    }],
+    from: { email: 'website@pandithomewallpainting.com' },
+    reply_to: { email: email },
+    content: [{
+      type: 'text/html',
+      value: emailHTML,
+    }],
+  }),
+});
 
     if (!response.ok) {
       throw new Error('Failed to send email');
