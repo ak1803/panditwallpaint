@@ -1,6 +1,7 @@
 // API Route for sending contact form emails
 // This file should be deployed as a serverless function
 
+
 export default async function handler(req: any, res: any) {
   // Only allow POST requests
   if (req.method !== 'POST') {
@@ -8,7 +9,6 @@ export default async function handler(req: any, res: any) {
   }
 
   const { name, email, phone, message } = req.body;
-
   // Validate required fields
   if (!name || !email || !phone || !message) {
     return res.status(400).json({ message: 'All fields are required' });
@@ -98,22 +98,23 @@ export default async function handler(req: any, res: any) {
     // You can use services like SendGrid, Mailgun, or your hosting provider's SMTP
 
     // Example using Resend (recommended for easy setup)
-    const apiKey = import.meta.env.VITE_API_KEY;
+const apiKey = import.meta.env.VITE_API_KEY;
     
     const response = await fetch('https://api.resend.com/emails', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
-        'Authorization': `Bearer ${apiKey}`, // Add your API key in environment variables
+        Authorization: `Bearer ${apiKey}`, // Add your API key in environment variables
       },
       body: JSON.stringify({
-        from: 'website@pandithomewallpainting.com', // Your verified domain
-        to: 'jakshay18397@gmail.com',
+        from: 'Website@pandithomewallpaints.com', // Your verified domain
+        to: ['jakshay18397@gmail.com'],
         subject: `New Contact Form Submission from ${name}`,
         html: emailHTML,
         reply_to: email,
       }),
     });
+
 
     if (!response.ok) {
       throw new Error('Failed to send email');
@@ -129,6 +130,8 @@ export default async function handler(req: any, res: any) {
     return res.status(500).json({
       success: false,
       message: 'Failed to send email. Please try again.'
+      console.log('API Key exists:', !!process.env.RESEND_API_KEY);
     });
+
   }
 }
