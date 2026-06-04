@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Phone, Mail, MapPin, MessageCircle } from 'lucide-react';
+import { Phone, Mail, MapPin } from 'lucide-react';
 import { Link } from 'react-router';
 
 export default function ContactPage() {
@@ -38,16 +38,13 @@ export default function ContactPage() {
     } catch (error) {
       setSubmitStatus({
         type: 'error',
-        message: 'An error occurred. Please try calling us directly at +91 8668415858'
+        message: 'An error occurred. Please try calling us directly at +91  7745871308'
       });
     } finally {
       setIsSubmitting(false);
     }
   };
 
-  const whatsappNumber = '918668415858'; // WhatsApp number with country code (no +)
-  const whatsappMessage = encodeURIComponent('Hi, I am interested in your painting services.');
-  const whatsappLink = `https://wa.me/${whatsappNumber}?text=${whatsappMessage}`;
 
   return (
     <div className="min-h-screen bg-background">
@@ -122,12 +119,6 @@ export default function ContactPage() {
                   />
                 </div>
 
-                {submitStatus.type && (
-                  <div className={`p-4 rounded-lg ${submitStatus.type === 'success' ? 'bg-green-50 text-green-800 border border-green-200' : 'bg-red-50 text-red-800 border border-red-200'}`}>
-                    <p className="text-sm font-medium">{submitStatus.message}</p>
-                  </div>
-                )}
-
                 <button
                   type="submit"
                   disabled={isSubmitting}
@@ -148,8 +139,8 @@ export default function ContactPage() {
                     </div>
                     <div>
                       <h4 className="font-bold text-primary mb-1">Phone</h4>
-                      <a href="tel:+918668415858" className="text-muted-foreground hover:text-accent transition-colors">
-                        +91 8668415858
+                      <a href="tel:+91 7745871308" className="text-muted-foreground hover:text-accent transition-colors">
+                        +91 7745871308
                       </a>
                     </div>
                   </div>
@@ -160,8 +151,8 @@ export default function ContactPage() {
                     </div>
                     <div>
                       <h4 className="font-bold text-primary mb-1">Email</h4>
-                      <a href="mailto:contact@gurupaintingservices.in" className="text-muted-foreground hover:text-accent transition-colors break-all">
-                        contact@gurupaintingservices.in
+                      <a href="mailto:sanghapalpandit@gmail.com" className="text-muted-foreground hover:text-accent transition-colors break-all">
+                        sanghapalpandit@gmail.com
                       </a>
                     </div>
                   </div>
@@ -173,27 +164,9 @@ export default function ContactPage() {
                     <div>
                       <h4 className="font-bold text-primary mb-1">Address</h4>
                       <p className="text-muted-foreground">
-                        Chinchwad Gaon, Chichwad,<br />
-                        Pimpri-Chinchwad, Maharashtra,<br />
-                        411033
+                        B 15 sai shradha colony rajwade nagar kalewadi,<br />
+                        pimpri chinchvad Rojas schoo! pune, Maharashtra, 411017.<br />
                       </p>
-                    </div>
-                  </div>
-
-                  <div className="flex items-start gap-4">
-                    <div className="w-12 h-12 bg-accent/10 rounded-lg flex items-center justify-center shrink-0">
-                      <MessageCircle className="w-6 h-6 text-accent" />
-                    </div>
-                    <div>
-                      <h4 className="font-bold text-primary mb-1">WhatsApp</h4>
-                      <a
-                        href={whatsappLink}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="text-muted-foreground hover:text-accent transition-colors"
-                      >
-                        +91 8668415858
-                      </a>
                     </div>
                   </div>
                 </div>
@@ -205,10 +178,10 @@ export default function ContactPage() {
                   Call us today to schedule a free onsite consultation. Our experts will visit your property and provide personalized design & color assistance.
                 </p>
                 <a
-                  href="tel:+918668415858"
+                  href="tel:+91 7745871308"
                   className="inline-block bg-accent text-white px-8 py-4 rounded-lg font-semibold hover:opacity-90 transition-opacity"
                 >
-                  Call Now: +91 8668415858
+                  Call Now: +91 7745871308
                 </a>
               </div>
             </div>
@@ -218,3 +191,9 @@ export default function ContactPage() {
     </div>
   );
 }
+
+
+
+
+
+

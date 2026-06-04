@@ -1,4 +1,4 @@
-# Guru Painting Services — Design Guidelines
+# Pandit Home Wall Paint — Design Guidelines
 
 ## Aesthetic Stance
 **Modern Geometric & Color-Confident** — Clean lines, bold color blocking, and asymmetric layouts that showcase the creative and transformative nature of painting services. The design uses strategic color zones to demonstrate the company's expertise with color and space.
