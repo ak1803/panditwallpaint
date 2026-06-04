@@ -102,10 +102,10 @@ export default async function handler(req: any, res: any) {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
-        'Authorization': `Bearer ${process.env.RESEND_API_KEY}`, // Add your API key in environment variables
+        'Authorization': `Bearer ${}`, // Add your API key in environment variables
       },
       body: JSON.stringify({
-        from: 'website@gurupaintingservices.in', // Your verified domain
+        from: 'pandithomewallpainting.com', // Your verified domain
         to: 'jakshay18397@gmail.com',
         subject: `New Contact Form Submission from ${name}`,
         html: emailHTML,

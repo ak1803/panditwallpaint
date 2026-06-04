@@ -13,7 +13,7 @@ export default function ContactPage() {
     setSubmitStatus({ type: null, message: '' });
 
     try {
-      const response = await fetch('send-email.ts', {
+      const response = await fetch('/api/send-email.ts', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
