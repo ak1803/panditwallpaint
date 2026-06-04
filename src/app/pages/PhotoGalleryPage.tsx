@@ -25,7 +25,7 @@ export default function PhotoGalleryPage() {
             </div>
             <h1 className="text-4xl md:text-6xl font-extrabold mb-6">Photo Gallery</h1>
             <p className="text-lg md:text-xl text-white/90 leading-relaxed">
-              Explore our completed projects and see the quality of our work. All projects of Pandit Home Wall Paint have achieved milestones.
+              Explore our completed projects and see the quality of our work. All projects of Guru Painting Services have achieved milestones.
             </p>
           </div>
         </div>

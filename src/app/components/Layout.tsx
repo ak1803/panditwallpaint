@@ -1,8 +1,6 @@
 import { useState } from 'react';
 import { Link, useLocation } from 'react-router';
-import { Paintbrush, Phone, Mail, ChevronDown, Menu, X, Facebook, Twitter, Youtube, Instagram, MessageCircle} from 'lucide-react';
-import myLocalImage from '../assets/brand-logo.png';
-import myLocalImageWhite from '../assets/brand-logo-white.png';
+import { Paintbrush, Phone, Mail, ChevronDown, Menu, X, Facebook, Twitter, Youtube, MessageCircle } from 'lucide-react';
 
 export default function Layout({ children }: { children: React.ReactNode }) {
   const [servicesOpen, setServicesOpen] = useState(false);
@@ -30,26 +28,31 @@ export default function Layout({ children }: { children: React.ReactNode }) {
     setMobileGalleryOpen(false);
   };
 
+  // WhatsApp configuration
+  const whatsappNumber = '918668415858';
+  const whatsappMessage = encodeURIComponent('Hi, I am interested in your painting services.');
+  const whatsappLink = `https://wa.me/${whatsappNumber}?text=${whatsappMessage}`;
+
   return (
     <div className="min-h-screen bg-background">
       {/* Top Bar */}
       <div className="bg-primary text-white py-2 text-sm">
         <div className="max-w-7xl mx-auto px-4 md:px-6 flex flex-wrap items-center justify-between gap-2">
           <div className="flex items-center gap-4 md:gap-6 flex-wrap">
-            <a href="tel:+917745871308" className="flex items-center gap-2 hover:text-accent transition-colors text-xs md:text-sm">
+            <a href="tel:+918668415858" className="flex items-center gap-2 hover:text-accent transition-colors text-xs md:text-sm">
               <Phone className="w-3 h-3 md:w-4 md:h-4" />
-              <span>+91 7745871308</span>
+              <span>+91 8668415858</span>
             </a>
-            <a href="mailto:sanghapalpandit@gmail.com" className="flex items-center gap-2 hover:text-accent transition-colors text-xs md:text-sm">
+            <a href="mailto:contact@gurupaintingservices.in" className="flex items-center gap-2 hover:text-accent transition-colors text-xs md:text-sm">
               <Mail className="w-3 h-3 md:w-4 md:h-4" />
-              <span className="hidden sm:inline">sanghapalpandit@gmail.com</span>
+              <span className="hidden sm:inline">contact@gurupaintingservices.in</span>
               <span className="sm:hidden">Email Us</span>
             </a>
           </div>
           <div className="flex items-center gap-3 md:gap-4">
-            <a href="https://www.facebook.com/profile.php?id=61586744439318&rdid=XlIqOiuMrQRJorl3&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F1GZjFiMzai%2F#" target="_blank" className="hover:text-accent transition-colors"><Facebook className="w-3 h-3 md:w-4 md:h-4" /></a>
-            <a href="https://www.instagram.com/pandithomewallpainting?utm_source=qr&igsh=d20wNTgwM2RzcXlp" className="hover:text-accent transition-colors" target="_blank"><Instagram className="w-3 h-3 md:w-4 md:h-4" /></a>
-            <a href="https://api.whatsapp.com/qr/JVHLPUQOGVKPB1?autoload=1&app_absent=0" target="_blank" className="hover:text-accent transition-colors"><MessageCircle className="w-3 h-3 md:w-4 md:h-4" /></a>
+            <a href="#" className="hover:text-accent transition-colors"><Facebook className="w-3 h-3 md:w-4 md:h-4" /></a>
+            <a href="#" className="hover:text-accent transition-colors"><Twitter className="w-3 h-3 md:w-4 md:h-4" /></a>
+            <a href="#" className="hover:text-accent transition-colors"><Youtube className="w-3 h-3 md:w-4 md:h-4" /></a>
           </div>
         </div>
       </div>
@@ -59,9 +62,8 @@ export default function Layout({ children }: { children: React.ReactNode }) {
         <div className="max-w-7xl mx-auto px-4 md:px-6 py-3 md:py-4">
           <div className="flex items-center justify-between">
             <Link to="/" className="flex items-center gap-2">
-              {/* <Paintbrush className="w-6 h-6 md:w-7 md:h-7 text-accent" />
-              <span className="font-bold text-lg md:text-xl text-primary">Pandit Home Wall Paint</span> */}
-              <img src={myLocalImage} alt=""  className="brand-img"/>
+              <Paintbrush className="w-6 h-6 md:w-7 md:h-7 text-accent" />
+              <span className="font-bold text-lg md:text-xl text-primary">Guru Painting Services</span>
             </Link>
 
             {/* Mobile Menu Toggle */}
@@ -182,28 +184,42 @@ export default function Layout({ children }: { children: React.ReactNode }) {
       {/* Main Content */}
       <main>{children}</main>
 
+      {/* Floating WhatsApp Button */}
+      <a
+        href={whatsappLink}
+        target="_blank"
+        rel="noopener noreferrer"
+        className="fixed bottom-6 right-6 z-50 w-14 h-14 md:w-16 md:h-16 bg-[#25D366] text-white rounded-full flex items-center justify-center shadow-lg hover:shadow-xl hover:scale-110 transition-all duration-300 group"
+        aria-label="Chat on WhatsApp"
+      >
+        <MessageCircle className="w-7 h-7 md:w-8 md:h-8" fill="currentColor" />
+        <span className="absolute -top-1 -right-1 w-4 h-4 bg-red-500 rounded-full animate-pulse"></span>
+        <span className="absolute bottom-full right-0 mb-2 px-3 py-2 bg-gray-900 text-white text-sm rounded-lg opacity-0 group-hover:opacity-100 transition-opacity whitespace-nowrap pointer-events-none">
+          Chat with us!
+        </span>
+      </a>
+
       {/* Footer */}
       <footer className="bg-primary text-white py-12">
         <div className="max-w-7xl mx-auto px-6">
           <div className="grid md:grid-cols-4 gap-8 mb-8">
             <div className="md:col-span-2">
               <div className="flex items-center gap-2 mb-4">
-                {/* <Paintbrush className="w-8 h-8 text-accent" />
-                <span className="font-bold text-2xl">Pandit Home Wall Paint</span> */}
-                 <img src={myLocalImageWhite} alt=""/>
+                <Paintbrush className="w-8 h-8 text-accent" />
+                <span className="font-bold text-2xl">Guru Painting Services</span>
               </div>
               <p className="text-white/70 mb-4 leading-relaxed">
-                Pandit Home Wall Paint is a one stop destination offering you end to end solution to design and create spaces you can cherish. A startup assuring you hassle free deals with best quality material and Skillful Craftsman to make your home into heaven.
+                Guru Painting Services is a one stop destination offering you end to end solution to design and create spaces you can cherish. A startup assuring you hassle free deals with best quality material and Skillful Craftsman to make your home into heaven.
               </p>
               <div className="flex items-center gap-4">
-                <a href="https://www.facebook.com/profile.php?id=61586744439318&rdid=XlIqOiuMrQRJorl3&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F1GZjFiMzai%2F#" target="_blank" className="w-10 h-10 bg-white/10 rounded-full flex items-center justify-center hover:bg-accent transition-colors">
+                <a href="#" className="w-10 h-10 bg-white/10 rounded-full flex items-center justify-center hover:bg-accent transition-colors">
                   <Facebook className="w-5 h-5" />
                 </a>
-                <a href="https://www.instagram.com/pandithomewallpainting?utm_source=qr&igsh=d20wNTgwM2RzcXlp" target="_blank" className="w-10 h-10 bg-white/10 rounded-full flex items-center justify-center hover:bg-accent transition-colors">
-                  <Instagram className="w-5 h-5" />
+                <a href="#" className="w-10 h-10 bg-white/10 rounded-full flex items-center justify-center hover:bg-accent transition-colors">
+                  <Twitter className="w-5 h-5" />
                 </a>
-                <a href="https://api.whatsapp.com/qr/JVHLPUQOGVKPB1?autoload=1&app_absent=0" target="_blank" className="w-10 h-10 bg-white/10 rounded-full flex items-center justify-center hover:bg-accent transition-colors">
-                    <MessageCircle className="w-5 h-5" />
+                <a href="#" className="w-10 h-10 bg-white/10 rounded-full flex items-center justify-center hover:bg-accent transition-colors">
+                  <Youtube className="w-5 h-5" />
                 </a>
               </div>
             </div>
@@ -232,7 +248,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
           </div>
 
           <div className="border-t border-white/10 pt-8 text-center text-sm text-white/60">
-            <p>© 2026 GPS | Design By: Creative Tech Pvt. Ltd</p>
+            <p>© 2020 GPS | Design By: BigHost India Private Limited</p>
           </div>
         </div>
       </footer>
