@@ -41,7 +41,7 @@ export default function App() {
     //   <div className="bg-primary text-white py-2 text-sm">
     //     <div className="max-w-7xl mx-auto px-6 flex flex-wrap items-center justify-between gap-4">
     //       <div className="flex items-center gap-6">
-    //         <a href="tel:+91 7745871308" className="flex items-center gap-2 hover:text-accent transition-colors">
+    //         <a href="tel:+7745871308" className="flex items-center gap-2 hover:text-accent transition-colors">
     //           <Phone className="w-4 h-4" />
     //           <span>+91 7745871308</span>
     //         </a>
@@ -617,7 +617,7 @@ export default function App() {
     //                 </div>
     //                 <div>
     //                   <h4 className="font-bold text-primary mb-1">Phone</h4>
-    //                   <a href="tel:+91 7745871308" className="text-muted-foreground hover:text-accent transition-colors">
+    //                   <a href="tel:+7745871308" className="text-muted-foreground hover:text-accent transition-colors">
     //                     +91 7745871308
     //                   </a>
     //                 </div>
@@ -657,7 +657,7 @@ export default function App() {
     //               Call us today to schedule a free onsite consultation. Our experts will visit your property and provide personalized design & color assistance.
     //             </p>
     //             <a
-    //               href="tel:+91 7745871308"
+    //               href="tel:+7745871308"
     //               className="inline-block bg-accent text-white px-8 py-4 rounded-lg font-semibold hover:opacity-90 transition-opacity"
     //             >
     //               Call Now: +91 7745871308

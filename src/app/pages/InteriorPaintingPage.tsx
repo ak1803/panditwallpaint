@@ -126,7 +126,7 @@ export default function InteriorPaintingPage() {
               Get Free Quote
             </Link>
             <a
-              href="tel:+91 7745871308"
+              href="tel:+7745871308"
               className="bg-white/10 backdrop-blur text-white px-8 py-4 rounded-lg text-lg font-semibold border-2 border-white/30 hover:bg-white/20 transition-colors"
             >
               Call: +91 7745871308

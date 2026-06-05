@@ -4,47 +4,13 @@ import { Link } from 'react-router';
 
 export default function ContactPage() {
   const [formData, setFormData] = useState({ name: '', email: '', phone: '', message: '' });
-  const [isSubmitting, setIsSubmitting] = useState(false);
-  const [submitStatus, setSubmitStatus] = useState<{ type: 'success' | 'error' | null, message: string }>({ type: null, message: '' });
 
-  const handleSubmit = async (e: React.FormEvent) => {
+  const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    setIsSubmitting(true);
-    setSubmitStatus({ type: null, message: '' });
-
-    try {
-      const response = await fetch('/api/send-email.ts', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify(formData),
-      });
-
-      const data = await response.json();
-
-      if (response.ok) {
-        setSubmitStatus({
-          type: 'success',
-          message: 'Thank you for your interest! We will contact you soon.'
-        });
-        setFormData({ name: '', email: '', phone: '', message: '' });
-      } else {
-        setSubmitStatus({
-          type: 'error',
-          message: data.message || 'Failed to send message. Please try again.'
-        });
-      }
-    } catch (error) {
-      setSubmitStatus({
-        type: 'error',
-        message: 'An error occurred. Please try calling us directly at +91  7745871308'
-      });
-    } finally {
-      setIsSubmitting(false);
-    }
+    console.log('Form submitted:', formData);
+    alert('Thank you for your interest! We will contact you soon.');
+    setFormData({ name: '', email: '', phone: '', message: '' });
   };
-
 
   return (
     <div className="min-h-screen bg-background">
@@ -121,10 +87,9 @@ export default function ContactPage() {
 
                 <button
                   type="submit"
-                  disabled={isSubmitting}
-                  className={`w-full bg-accent text-accent-foreground py-4 rounded-lg font-semibold hover:opacity-90 transition-opacity shadow-lg text-lg ${isSubmitting ? 'opacity-50 cursor-not-allowed' : ''}`}
+                  className="w-full bg-accent text-accent-foreground py-4 rounded-lg font-semibold hover:opacity-90 transition-opacity shadow-lg text-lg"
                 >
-                  {isSubmitting ? 'Sending...' : 'Send Message'}
+                  Send Message
                 </button>
               </form>
             </div>
@@ -139,8 +104,8 @@ export default function ContactPage() {
                     </div>
                     <div>
                       <h4 className="font-bold text-primary mb-1">Phone</h4>
-                      <a href="tel:+91 7745871308" className="text-muted-foreground hover:text-accent transition-colors">
-                        +91 7745871308
+                      <a href="tel:+7745871308" className="text-muted-foreground hover:text-accent transition-colors">
+                        +91 7745871308 
                       </a>
                     </div>
                   </div>
@@ -178,7 +143,7 @@ export default function ContactPage() {
                   Call us today to schedule a free onsite consultation. Our experts will visit your property and provide personalized design & color assistance.
                 </p>
                 <a
-                  href="tel:+91 7745871308"
+                  href="tel:+7745871308"
                   className="inline-block bg-accent text-white px-8 py-4 rounded-lg font-semibold hover:opacity-90 transition-opacity"
                 >
                   Call Now: +91 7745871308
@@ -191,9 +156,3 @@ export default function ContactPage() {
     </div>
   );
 }
-
-
-
-
-
-
