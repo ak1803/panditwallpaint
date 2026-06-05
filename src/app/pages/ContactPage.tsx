@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { Phone, Mail, MapPin } from 'lucide-react';
 import { Link } from 'react-router';
-
+import { useForm } from "react-hook-form";
 
 type FormData = {
   name: string;
