@@ -1,5 +1,15 @@
 import { useState } from 'react';
-import { Phone, Mail, MapPin, User, } from 'lucide-react';
+import {     
+  User,
+  Mail,
+  Phone,
+  FileText,
+  Send,
+  CheckCircle,
+  AlertCircle,
+  MapPin,
+  Clock,
+  ArrowRight,} from 'lucide-react';
 import { Link } from 'react-router';
 import { useForm } from "react-hook-form";
 
