@@ -36,7 +36,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
       <div className="bg-primary text-white py-2 text-sm">
         <div className="max-w-7xl mx-auto px-4 md:px-6 flex flex-wrap items-center justify-between gap-2">
           <div className="flex items-center gap-4 md:gap-6 flex-wrap">
-            <a href="tel:+7745871308" className="flex items-center gap-2 hover:text-accent transition-colors text-xs md:text-sm">
+            <a href="tel:7745871308" className="flex items-center gap-2 hover:text-accent transition-colors text-xs md:text-sm">
               <Phone className="w-3 h-3 md:w-4 md:h-4" />
               <span>+91 7745871308</span>
             </a>
