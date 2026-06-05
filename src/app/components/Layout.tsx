@@ -49,7 +49,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
           <div className="flex items-center gap-3 md:gap-4">
             <a href="https://www.facebook.com/profile.php?id=61586744439318&rdid=XlIqOiuMrQRJorl3&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F1GZjFiMzai%2F#" target="_blank" className="hover:text-accent transition-colors"><Facebook className="w-3 h-3 md:w-4 md:h-4" /></a>
             <a href="https://www.instagram.com/pandithomewallpainting?utm_source=qr&igsh=d20wNTgwM2RzcXlp" className="hover:text-accent transition-colors" target="_blank"><Instagram className="w-3 h-3 md:w-4 md:h-4" /></a>
-            <a href="https://api.whatsapp.com/qr/JVHLPUQOGVKPB1?autoload=1&app_absent=0" target="_blank" className="hover:text-accent transition-colors"><MessageCircle className="w-3 h-3 md:w-4 md:h-4" /></a>
+            <a href="https://api.whatsapp.com/send?phone=917745871308&text=We%20offer%20professional%20Interior%20%26%20Exterior%20Painting%20Services%20with%20quality%20workmanship%20and%20affordable%20rates." target="_blank" className="hover:text-accent transition-colors"><MessageCircle className="w-3 h-3 md:w-4 md:h-4" /></a>
           </div>
         </div>
       </div>
@@ -202,7 +202,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
                 <a href="https://www.instagram.com/pandithomewallpainting?utm_source=qr&igsh=d20wNTgwM2RzcXlp" target="_blank" className="w-10 h-10 bg-white/10 rounded-full flex items-center justify-center hover:bg-accent transition-colors">
                   <Instagram className="w-5 h-5" />
                 </a>
-                <a href="https://api.whatsapp.com/qr/JVHLPUQOGVKPB1?autoload=1&app_absent=0" target="_blank" className="w-10 h-10 bg-white/10 rounded-full flex items-center justify-center hover:bg-accent transition-colors">
+                <a href="https://api.whatsapp.com/send?phone=917745871308&text=We%20offer%20professional%20Interior%20%26%20Exterior%20Painting%20Services%20with%20quality%20workmanship%20and%20affordable%20rates." target="_blank" className="w-10 h-10 bg-white/10 rounded-full flex items-center justify-center hover:bg-accent transition-colors">
                     <MessageCircle className="w-5 h-5" />
                 </a>
               </div>
